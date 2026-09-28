@@ -1,15 +1,26 @@
 # Arrowline Portal Help Center
 
-Mintlify help center for the Arrowline Customer Portal, focused on operational usage of Parcels, Pallets and Truckloads.
+Self-hosted help center for the Arrowline Customer Portal. It uses a Mintlify-inspired documentation layout and deploys to Vercel without a Mintlify runtime or subscription. The original MDX articles and `docs.json` navigation remain the content source.
 
-## Local preview
+## Deploy to Vercel
+
+1. Import this repository into Vercel, or point the existing Vercel project at this repository and branch.
+2. Select **Other** as the framework preset. The checked-in `vercel.json` sets the build command to `npm run build` and output directory to `dist`.
+3. Deploy. All 344 articles across eight languages are generated as static HTML, including searchable article metadata.
+4. Test the production domain and one article in each language. The URL shared for this project is a protected preview and currently asks visitors to sign in to Vercel; use the project's production domain for public access, or review Deployment Protection settings intentionally.
+5. If moving a custom help domain from Mintlify, add it to the Vercel project, follow the DNS verification values shown by Vercel, then remove the domain from Mintlify after the Vercel site is working. Avoid connecting the same host to both providers at once.
+
+The current GitHub repository already contains all content. Pushing the static frontend and its lockfile is sufficient for future Vercel builds. Editing MDX or `docs.json` and redeploying updates the help center; the Mintlify dashboard is no longer part of the publishing workflow.
+
+## Local build
 
 ```bash
-npm install -g mint
-mint dev
+npm ci
+npm run build
+npx serve dist
 ```
 
-Open the local preview shown by the CLI. The documentation is written in MDX and is intended to be connected to a Git repository in Mintlify.
+Open the local address printed by `serve`. Production output lives in `dist/` and does not need a Node server.
 
 Use `CONTENT-COVERAGE.md` to see which portal routes are documented. Screenshot placeholders name the portal route that still needs a real, masked screen.
 
