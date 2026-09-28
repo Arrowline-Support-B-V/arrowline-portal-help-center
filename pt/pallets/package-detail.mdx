@@ -1,0 +1,37 @@
+---
+title: "Detalhes do volume Paletes"
+sidebarTitle: "Detalhes do volume Paletes"
+description: "Consulte um código de barras de paletes, a cronologia, a entrega prevista e a etiqueta."
+icon: "barcode"
+---
+
+A página do volume é a vista com sessão iniciada de um código de barras. Utilize-a quando a página da encomenda não for suficiente.
+
+<Frame caption="Captura de ecrã necessária — substitua `/pallet/package-detail/[barcode]`. Oculte o código de barras.">
+  <img src="/images/screenshot-placeholder.svg" alt="Marcador de posição para o detalhe de um volume de paletes" />
+</Frame>
+
+## Abrir um volume
+
+- Na [página da encomenda](/pt/pallets/shipment-detail), selecione o código de barras
+- Na [lista de envios](/pt/pallets/shipments), abra a linha do código de barras correspondente
+- No [seguimento público](/pt/pallets/public-tracking), se só precisar do progresso e não precisar de ações com sessão iniciada
+
+## O que a página do volume pode mostrar
+
+- Código de barras e encomenda relacionada
+- Factos do envio desse volume
+- Cronologia de estados do código de barras
+- Entrega prevista, quando disponível
+- Transportadora e volume, quando disponíveis
+- Notificações de estado
+- Um ticket de paletes associado, quando corresponder à encomenda e ao código de barras
+- Um PDF de etiqueta de envio
+
+A cronologia utiliza os eventos de estado guardados para esse código de barras, ordenados por data e hora.
+
+<Info>
+  Pode ativar ou desativar as notificações de estado a partir desta página quando esse controlo for apresentado.
+</Info>
+
+Se o código de barras estiver em falta ou fora do âmbito, o portal trata-o como não encontrado. Inclua o número de encomenda e o código de barras quando contactar a Support.

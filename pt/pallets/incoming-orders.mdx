@@ -1,0 +1,51 @@
+---
+title: "Encomendas Incoming de paletes"
+sidebarTitle: "Encomendas Incoming de paletes"
+description: "Planear encomendas Incoming de paletes, transferir etiquetas e confirmar Ready To Ship."
+icon: "inbox"
+---
+
+Incoming Orders é a bancada de planeamento de paletes. Tem duas listas:
+
+- **Incoming** — encomendas que ainda não têm um estado mais recente
+- **Ready to ship** — encomendas confirmadas com o estado **Ready To Ship**
+
+<Frame caption="Captura de ecrã necessária — substitua `/pallet/incoming-orders` com as duas listas visíveis.">
+  <img src="/images/screenshot-placeholder.svg" alt="Marcador de posição para a bancada de encomendas Incoming e Ready to ship" />
+</Frame>
+
+## Abrir a bancada
+
+<Steps>
+  <Step title="Abrir Paletes">Inicie sessão e abra o espaço de trabalho Paletes.</Step>
+  <Step title="Abrir Incoming Orders">Consulte a lista Incoming e a lista Ready to ship.</Step>
+  <Step title="Selecionar as linhas">Selecione uma ou mais encomendas ou códigos de barras que precisa de processar.</Step>
+  <Step title="Escolher uma ação">Transfira etiquetas, confirme o envio com Confirm, ou utilize Revert ou Remove apenas se for necessária uma correção.</Step>
+</Steps>
+
+As linhas Incoming podem mostrar data de criação, número de encomenda, código de barras, expedidor e país de destino. Só vê encomendas da sua empresa e, para contas de distribuidor, dos países de destino permitidos.
+
+## Confirmar Ready To Ship
+
+<Steps>
+  <Step title="Selecionar linhas Incoming">Escolha as encomendas ou os códigos de barras que estão prontos.</Step>
+  <Step title="Confirmar o envio">O portal regista **Ready To Ship** para cada código de barras selecionado.</Step>
+  <Step title="Verificar a lista Ready to ship">As linhas passam para a lista Ready to ship.</Step>
+</Steps>
+
+## Etiquetas
+
+Pode imprimir ou transferir etiquetas de envio para as linhas selecionadas. O portal cria uma etiqueta PDF para cada palete selecionada.
+
+Também pode gerar uma etiqueta a partir de [Detalhes do volume Paletes](/pt/pallets/package-detail).
+
+## Revert ou Remove
+
+- **Revert** devolve uma linha Ready to ship a Incoming, removendo o estado Ready To Ship. O Revert pode ficar bloqueado depois de o envio ter sido comunicado à transportadora.
+- **Remove** elimina o código de barras selecionado da bancada. Esta é uma eliminação permanente, não um arquivo.
+
+<Warning>
+  Utilize Remove apenas quando o código de barras não deve permanecer no portal. Se só precisar de anular uma confirmação, utilize Revert.
+</Warning>
+
+Se uma encomenda esperada estiver em falta, verifique a empresa, o país de destino e os filtros. Em seguida, siga [Não é possível encontrar um envio](/pt/support/shipment-not-found).

@@ -1,0 +1,39 @@
+---
+title: "Status in Paletten"
+sidebarTitle: "Status in Paletten"
+description: "Lesen Sie die Planungsstatus von Paletten und die zugeordnete Zeitachse auf einem Paket."
+icon: "list-check"
+---
+
+Status in Paletten stammen aus der Paletten-Statushistorie. Das Portal ordnet diese Ereignisse den Namen zu, die Sie in der Liste und auf der Paket-Zeitachse sehen.
+
+Lesen Sie das letzte Ereignis auf der [Paketseite](/de/pallets/package-detail). Diese Barcode-Zeitachse ist der Ort, um den Fortschritt zu verfolgen.
+
+<Frame caption="Screenshot erforderlich — ersetzen Sie eine Paket-Zeitachse mit mehreren zugeordneten Status.">
+  <img src="/images/screenshot-placeholder.svg" alt="Platzhalter für eine Status-Zeitachse in Paletten" />
+</Frame>
+
+## Planungsstatus
+
+Diese Status werden im Planungsablauf nach der Anmeldung verwendet:
+
+| Status | Was er im Portal bedeutet |
+| --- | --- |
+| Incoming | Der Auftrag hat noch keinen letzten Status und erscheint in der Liste Incoming |
+| Ready To Ship | Sie haben die Sendung in Incoming Orders bestätigt |
+| Shipment Communicated to Carrier | Die Sendung wurde an den Frachtführer übergeben. Revert kann ab diesem Punkt gesperrt sein |
+| Order Cancelled | Der Auftrag ist storniert |
+
+## Namen für Bewegung und Lieferung, die Sie sehen können
+
+Zugeordnete Namen sind unter anderem **Picked Up**, **Arrival HUB**, **In Transit**, **Out for Delivery** und **Delivered**.
+
+Delivered kann auch als genauerer Name erscheinen, etwa **Delivered, Partially Missing**, **Delivered on Appointment** oder **Delivered, Partly Delivered**.
+
+Ausnahmenamen können Ereignisse wie damaged, refused, address closed, returned, on hold oder missing-in-network enthalten. Nutzen Sie den Namen, der auf der Zeitachse steht. Benennen Sie ihn nicht um.
+
+## Status sind keine Supportfälle
+
+Eine Palette kann **Delivered** zeigen, während ein [Claim](/de/pallets/claims) noch offen ist. Ein Planungsstatus kann normal wirken, während ein [Ticket](/de/pallets/tickets) bearbeitet wird.
+
+Wenn das letzte Ereignis fehlt oder falsch wirkt, legen Sie die Sendung nicht erneut an. Folgen Sie [Ein Sendungsstatus wird nicht aktualisiert](/de/support/status-not-updated) und geben Sie Auftragsnummer und Barcode an.

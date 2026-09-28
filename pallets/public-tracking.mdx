@@ -1,0 +1,59 @@
+---
+title: "Track a pallet without signing in"
+sidebarTitle: "Track a pallet without signing in"
+description: "Follow a pallet by order number or tracking number on the public tracking page."
+icon: "location-dot"
+---
+
+Public pallet tracking does not require a portal account. Use it when you have an order number or a tracking number and only need to see progress.
+
+This page is for **Pallets** only. It will not find a parcel.
+
+<Frame caption="Screenshot required — replace `/track`. Do not show a real identifier.">
+  <img src="/images/screenshot-placeholder.svg" alt="Placeholder for public pallet tracking search" />
+</Frame>
+
+## Search for a pallet
+
+<Steps>
+  <Step title="Open public tracking">Go to the public pallet tracking page.</Step>
+  <Step title="Choose the search type">Select **Order Number** or **Tracking Number**.</Step>
+  <Step title="Enter the complete identifier">Type the full value. Do not shorten it.</Step>
+  <Step title="Search">Wait for the result. A match opens the tracking detail. No match shows a not-found message.</Step>
+</Steps>
+
+If you search by order number and the order has more than one barcode, the portal opens the first matching barcode. Switch barcode on the detail page.
+
+A shared tracking link that contains only one identifier is resolved automatically. If it cannot be matched, the portal returns to the search page with a not-found message.
+
+## Read the tracking detail
+
+The public detail page can show:
+
+- Order number and barcode
+- Destination
+- Weight
+- Carrier
+- Expected delivery, when available
+- The mapped status timeline
+
+<Frame caption="Screenshot required — replace `/track/[orderNumber]/[barcode]`. Mask destination data.">
+  <img src="/images/screenshot-placeholder.svg" alt="Placeholder for public pallet tracking detail" />
+</Frame>
+
+If the order has several barcodes, use the barcode selector to open another package in the same order. The page refreshes about every 30 seconds while it stays open.
+
+<Info>
+  Expected delivery is shown only when the portal has that information for the barcode. If it is missing, the rest of the tracking detail can still be correct.
+</Info>
+
+## When you need the signed-in workspace
+
+Sign in and use the Pallets workspace when you need to:
+
+- Plan or confirm [incoming orders](/pallets/incoming-orders)
+- Download a shipping label
+- Open a pallet [claim](/pallets/claims) or [ticket](/pallets/tickets)
+- Review the signed-in [shipment list](/pallets/shipments)
+
+See [Pallets in the portal](/pallets/overview) and [A shipment cannot be found](/support/shipment-not-found).

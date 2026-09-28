@@ -1,0 +1,37 @@
+---
+title: "Detalles del paquete de Palets"
+sidebarTitle: "Detalles del paquete de Palets"
+description: "Revise un código de barras de Palets, su línea de tiempo, la entrega prevista y la etiqueta."
+icon: "barcode"
+---
+
+La página del paquete es la vista con sesión iniciada de un código de barras. Úsela cuando la página del pedido no sea suficiente.
+
+<Frame caption="Captura de pantalla necesaria — sustituya `/pallet/package-detail/[barcode]`. Enmascare el código de barras.">
+  <img src="/images/screenshot-placeholder.svg" alt="Marcador de posición para el detalle de un paquete de Palets" />
+</Frame>
+
+## Abra un paquete
+
+- Desde la [página del pedido](/es/pallets/shipment-detail), seleccione el código de barras
+- Desde la [lista de envíos](/es/pallets/shipments), abra la fila del código de barras coincidente
+- Desde el [seguimiento público](/es/pallets/public-tracking), si solo necesita el progreso y no las acciones con sesión iniciada
+
+## Qué puede mostrar la página del paquete
+
+- Código de barras y pedido relacionado
+- Datos del envío de ese paquete
+- Línea de tiempo de estados del código de barras
+- Entrega prevista, cuando esté disponible
+- Transportista y volumen, cuando estén disponibles
+- Notificaciones de estado
+- Un ticket de Palets vinculado, cuando coincida con el pedido y el código de barras
+- Un PDF de etiqueta de envío
+
+La línea de tiempo usa los eventos de estado almacenados para ese código de barras, ordenados por fecha y hora.
+
+<Info>
+  Puede activar o desactivar las notificaciones de estado desde esta página cuando se muestre ese control.
+</Info>
+
+Si el código de barras falta o está fuera de alcance, el portal lo trata como no encontrado. Incluya el número de pedido y el código de barras cuando se ponga en contacto con Support.

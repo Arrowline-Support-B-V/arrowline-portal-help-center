@@ -1,0 +1,39 @@
+---
+title: "Statusy Paczka"
+sidebarTitle: "Statusy Paczka"
+description: "Odczytać zgrupowane statusy paczka pokazywane na pulpicie i liście przesyłek."
+icon: "list-check"
+---
+
+Portal grupuje surowe zdarzenia przewoźnika w kategorie operacyjne na pulpicie Paczka i liście przesyłek. Kategorie, których można się spodziewać, to:
+
+- In transit
+- Exceptions
+- Delivered
+
+Etykieta w wierszu to ten zgrupowany status, a nie każda nazwa skanowania źródłowego.
+
+<Frame caption="Wymagany zrzut ekranu — zastąpić sumy statusów `/parcel` lub `/shipments`. Zamaskować dane klientów.">
+  <img src="/images/screenshot-placeholder.svg" alt="Symbol zastępczy kategorii statusów paczka" />
+</Frame>
+
+## Jak odczytać status
+
+- Sprawdzić znacznik czasu najnowszego zdarzenia
+- Sprawdzić miejsce przeznaczenia i przewoźnika w tym samym wierszu
+- Zobaczyć, czy status jest w grupie Exceptions
+- Sprawdzić ponownie później, jeśli nowsze zdarzenie może jeszcze nadejść
+
+Czasy pochodzą ze zdarzenia, które portal otrzymał. Mogą różnić się od czasu na Państwa zegarze.
+
+## Statusy to nie sprawy wsparcia
+
+Przesyłka paczka może pokazywać **Delivered**, podczas gdy [reklamacja](/pl/parcels/claims) jest nadal otwarta. Przesyłka paczka może pokazywać **In transit**, podczas gdy obsługiwane jest [zgłoszenie](/pl/parcels/tickets).
+
+| Grupa statusu | Typowy następny krok |
+| --- | --- |
+| In transit | Poczekać na następną aktualizację albo otworzyć zgłoszenie, jeśli przesyłka paczka jest spóźniona |
+| Exceptions | Postępować zgodnie z [Wyjątki dostawy](/pl/parcels/delivery-exceptions) |
+| Delivered | Zamknąć zadanie albo otworzyć reklamację, jeśli doszło do uszkodzenia, braku lub zaginięcia |
+
+Jeśli zgrupowany status wygląda nieprawidłowo, zachować numer zamówienia i wartość track and trace i postępować zgodnie z [Status przesyłki nie jest aktualizowany](/pl/support/status-not-updated).

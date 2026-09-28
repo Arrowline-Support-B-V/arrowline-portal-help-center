@@ -1,0 +1,57 @@
+---
+title: "Reklamacje Paczka"
+sidebarTitle: "Reklamacje Paczka"
+description: "Przeglądać, tworzyć i śledzić formalną reklamację paczka."
+icon: "file-circle-exclamation"
+---
+
+Użyć reklamacji paczka w sprawie formalnego zdarzenia, takiego jak uszkodzenie, brak lub zaginięcie. Reklamacja jest oddzielna od statusu śledzenia i oddzielna od zgłoszenia wsparcia.
+
+<Frame caption="Wymagany zrzut ekranu — zastąpić `/claims` z filtrami i czynnością tworzenia reklamacji.">
+  <img src="/images/screenshot-placeholder.svg" alt="Symbol zastępczy listy reklamacji paczka" />
+</Frame>
+
+## Przejrzeć istniejące reklamacje
+
+Lista reklamacji pokazuje reklamacje Państwa firmy. Zaczyna się od zakresu dat wynoszącego cztery tygodnie.
+
+Mogą Państwo:
+
+- Filtrować według statusu, daty lub firmy
+- Wyeksportować odfiltrowaną listę
+- Otworzyć wynik reklamacji
+- Włączać lub wyłączać powiadomienia o reklamacji
+- Rozpocząć nową reklamację
+
+Każdy wiersz może pokazywać identyfikator reklamacji, powiązane zamówienie, gdy jest zapisane, kategorię, status i daty. Jeśli brakuje odniesienia do zamówienia, traktować je jako niedostępne. Nie zgadywać go.
+
+## Utworzyć reklamację
+
+<Steps>
+  <Step title="Otworzyć reklamacje Paczka">W obszarze roboczym Paczki otworzyć Claims i rozpocząć nową reklamację.</Step>
+  <Step title="Wprowadzić przesyłkę">Dodać numer zamówienia i każdy numer paczka. Wybrać przewoźnika i charakter reklamacji.</Step>
+  <Step title="Dodać artykuły">Dla każdego artykułu wprowadzić nazwę, ilość, cenę i opis problemu.</Step>
+  <Step title="Dołączyć wymagane pliki">Dodać fakturę. Dodać zdjęcia, chyba że charakter reklamacji to zaginięcie. Dodać listę pakową, gdy przewoźnikiem jest Van Duuren.</Step>
+  <Step title="Sprawdzić sumę">Portal mnoży ilość × cena dla każdego artykułu, aby pokazać wartość reklamacji.</Step>
+  <Step title="Wysłać raz">Wysłać formularz i poczekać na stronę wyniku reklamacji. Nie wysyłać tej samej reklamacji ponownie.</Step>
+</Steps>
+
+<Frame caption="Wymagany zrzut ekranu — zastąpić `/claims/add`. Nie pokazywać prawdziwych faktur ani zdjęć.">
+  <img src="/images/screenshot-placeholder.svg" alt="Symbol zastępczy formularza tworzenia reklamacji paczka" />
+</Frame>
+
+Formularz nie zostanie wysłany, dopóki wymagane pola nie będą kompletne.
+
+## Po wysłaniu
+
+Strona wyniku reklamacji pokazuje status sprawy, postęp, powiązane zamówienie i przewoźnika, gdy są dostępne, komentarze i załączniki oraz element sterujący powiadomieniami.
+
+<Frame caption="Wymagany zrzut ekranu — zastąpić `/claims/result/[id]`. Zamaskować kwoty i dane osobowe.">
+  <img src="/images/screenshot-placeholder.svg" alt="Symbol zastępczy wyniku reklamacji paczka" />
+</Frame>
+
+Użyć elementu sterującego powiadomieniami, jeśli chcą Państwo aktualizacje statusu. Odpowiedzieć w tej reklamacji, jeśli Support prosi o więcej informacji.
+
+<Warning>
+  Nie tworzyć drugiej reklamacji dla tej samej przesyłki paczka, chyba że Arrowline Support o to poprosi. Status śledzenia Delivered nadal może mieć otwartą reklamację.
+</Warning>

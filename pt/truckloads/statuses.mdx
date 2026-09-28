@@ -1,0 +1,37 @@
+---
+title: "Estados Cargas completas"
+sidebarTitle: "Estados Cargas completas"
+description: "Leia os estados Cargas completas apresentados no painel e na lista de envios."
+icon: "list-check"
+---
+
+O painel de Cargas completas e a lista de envios utilizam estados operacionais para transportes de carga completa. Os estados que pode esperar são:
+
+- Planned
+- In Transit
+- Arrived
+
+<Frame caption="Captura de ecrã necessária — substitua os totais de estado em `/ftl` ou `/ftl-shipments`. Oculte origem e destino.">
+  <img src="/images/screenshot-placeholder.svg" alt="Marcador de posição para as categorias de estado Cargas completas" />
+</Frame>
+
+## Como ler um estado
+
+- Verifique a última atualização na mesma linha
+- Verifique a origem, o destino e a lista de paragens
+- Abra o [detalhe do transporte](/pt/truckloads/shipment-detail) quando precisar da cronologia de chegada e de partida
+- Volte a consultar mais tarde se um evento mais recente ainda puder chegar
+
+As horas vêm do registo de transporte que o portal recebeu. Podem diferir da hora no seu relógio.
+
+## Os estados não são casos de apoio
+
+Um transporte pode mostrar **In Transit** ou **Arrived** e, mesmo assim, precisar que a Arrowline analise um atraso ou uma atualização em falta.
+
+| Estado | Passo seguinte habitual |
+| --- | --- |
+| Planned | Aguarde a partida, ou contacte a Support se a hora prevista já passou e nada se moveu |
+| In Transit | Siga as paragens na página de detalhe, ou contacte a Support se o transporte estiver atrasado |
+| Arrived | Conclua a tarefa, ou contacte a Support se o destino ou o horário estiver errado |
+
+Cargas completas não utiliza os formulários de reclamação e de ticket de Encomendas ou Paletes. Se o estado parecer errado, guarde o número de encomenda e siga [O estado de um envio não é atualizado](/pt/support/status-not-updated).

@@ -1,0 +1,39 @@
+---
+title: "Statuts Colis"
+sidebarTitle: "Statuts Colis"
+description: "Lisez les statuts de colis regroupés affichés sur le tableau de bord et la liste des expéditions."
+icon: "list-check"
+---
+
+Le portail regroupe les événements bruts du transporteur en catégories opérationnelles sur le tableau de bord Colis et la liste des expéditions. Les catégories auxquelles vous pouvez vous attendre sont :
+
+- In transit
+- Exceptions
+- Delivered
+
+Le libellé sur une ligne est ce statut regroupé, pas chaque nom de scan sous-jacent.
+
+<Frame caption="Capture d'écran requise — remplacez les totaux de statut de `/parcel` ou `/shipments`. Masquez les données client.">
+  <img src="/images/screenshot-placeholder.svg" alt="Espace réservé pour les catégories de statut Colis" />
+</Frame>
+
+## Comment lire un statut
+
+- Vérifiez l'horodatage du dernier événement
+- Vérifiez la destination et le transporteur sur la même ligne
+- Voyez si le statut est dans le groupe Exceptions
+- Revenez plus tard si un événement plus récent peut encore arriver
+
+Les horaires proviennent de l'événement que le portail a reçu. Ils peuvent différer de l'heure de votre horloge.
+
+## Les statuts ne sont pas des dossiers de support
+
+Un colis peut afficher **Delivered** alors qu'une [réclamation](/fr/parcels/claims) est encore ouverte. Un colis peut afficher **In transit** alors qu'un [ticket](/fr/parcels/tickets) est en cours de traitement.
+
+| Groupe de statut | Étape suivante typique |
+| --- | --- |
+| In transit | Attendez la prochaine mise à jour, ou ouvrez un ticket si le colis est en retard |
+| Exceptions | Suivez [Exceptions de livraison](/fr/parcels/delivery-exceptions) |
+| Delivered | Clôturez la tâche, ou ouvrez une réclamation s'il y a un dommage, un manquant ou une perte |
+
+Si le statut regroupé semble incorrect, conservez le numéro de commande et la valeur track and trace et suivez [Le statut d'une expédition n'est pas mis à jour](/fr/support/status-not-updated).

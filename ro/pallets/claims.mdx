@@ -1,0 +1,55 @@
+---
+title: "Reclamații Paleți"
+sidebarTitle: "Reclamații Paleți"
+description: "Consultați, creați și urmăriți o reclamație formală de palet."
+icon: "file-circle-exclamation"
+---
+
+Folosiți o reclamație de palet pentru un incident formal, de exemplu daună, lipsă sau pierdere. O reclamație este separată de statusul de urmărire și separată de un tichet de asistență.
+
+<Frame caption="Captură de ecran necesară — înlocuiți `/pallet/claims` cu filtrele și acțiunea de creare a reclamației.">
+  <img src="/images/screenshot-placeholder.svg" alt="Substituent pentru lista de reclamații de paleți" />
+</Frame>
+
+## Consultați reclamațiile existente
+
+Lista de reclamații Paleți nu este lista de reclamații Colete. Afișează cazurile de paleți ale companiei dumneavoastră.
+
+Puteți:
+
+- Filtra după dată, status sau companie
+- Exporta lista filtrată
+- Deschide un rezultat de reclamație
+- Activa sau dezactiva notificările de reclamație
+- Începe o reclamație nouă
+
+Fiecare rând poate afișa un identificator de reclamație, comanda sau barcode-ul legat când este stocat, tipul, statusul și datele. Dacă lipsește o referință, tratați-o ca unavailable.
+
+## Creați o reclamație
+
+<Steps>
+  <Step title="Deschideți Claims din Paleți">Din spațiul de lucru Paleți, deschideți Claims și începeți o reclamație nouă.</Step>
+  <Step title="Introduceți expedierea">Adăugați order number și fiecare barcode. Alegeți carrier și natura reclamației. Lista de carrier include Van Duuren, Geodis și CTS.</Step>
+  <Step title="Adăugați articolele">Pentru fiecare articol, introduceți numele, cantitatea, prețul și o descriere a problemei.</Step>
+  <Step title="Atașați fișierele necesare">Adăugați factura. Adăugați fotografii, exceptând cazul în care natura reclamației este lost.</Step>
+  <Step title="Verificați totalul">Portalul adună quantity × price pentru fiecare articol ca să arate valoarea reclamației.</Step>
+  <Step title="Trimiteți o singură dată">Așteptați pagina de rezultat a reclamației. Nu trimiteți aceeași reclamație din nou.</Step>
+</Steps>
+
+<Frame caption="Captură de ecran necesară — înlocuiți `/pallet/claims/add`. Nu afișați facturi sau fotografii reale.">
+  <img src="/images/screenshot-placeholder.svg" alt="Substituent pentru formularul de creare a reclamației de palet" />
+</Frame>
+
+Formularul nu se trimite până când câmpurile obligatorii sunt complete.
+
+## După trimitere
+
+Pagina de rezultat a reclamației afișează statusul cazului, progresul, comanda legată, barcode-ul și carrier-ul când sunt disponibile, comentariile și atașamentele, plus un control de notificări.
+
+<Frame caption="Captură de ecran necesară — înlocuiți `/pallet/claims/result/[id]`. Mascați sumele și datele personale.">
+  <img src="/images/screenshot-placeholder.svg" alt="Substituent pentru rezultatul unei reclamații de palet" />
+</Frame>
+
+<Warning>
+  Nu creați o a doua reclamație de palet pentru aceleași barcode-uri, exceptând cazul în care Support vă cere acest lucru. Un status de urmărire Delivered poate avea totuși o reclamație deschisă.
+</Warning>

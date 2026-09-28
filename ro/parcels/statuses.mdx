@@ -1,0 +1,39 @@
+---
+title: "Statusuri Colete"
+sidebarTitle: "Statusuri Colete"
+description: "Citiți statusurile grupate de colete afișate pe tabloul de bord și în lista de expedieri."
+icon: "list-check"
+---
+
+Portalul grupează evenimentele brute ale transportatorului în categorii operaționale pe tabloul de bord Colete și în lista de expedieri. Categoriile pe care le puteți aștepta sunt:
+
+- In transit
+- Exceptions
+- Delivered
+
+Eticheta de pe un rând este acest status grupat, nu fiecare nume de scanare de la bază.
+
+<Frame caption="Captură de ecran necesară — înlocuiți totalurile de status din `/parcel` sau `/shipments`. Mascați datele clienților.">
+  <img src="/images/screenshot-placeholder.svg" alt="Substituent pentru categoriile de status Colete" />
+</Frame>
+
+## Cum se citește un status
+
+- Verificați data și ora celui mai recent eveniment
+- Verificați destination și carrier pe același rând
+- Vedeți dacă statusul este în grupul exceptions
+- Priviți din nou mai târziu dacă un eveniment mai nou poate încă sosi
+
+Orele vin din evenimentul primit de portal. Pot diferi de ora de pe ceasul dumneavoastră.
+
+## Statusurile nu sunt cazuri de asistență
+
+Un colet poate afișa **Delivered** în timp ce o [reclamație](/ro/parcels/claims) este încă deschisă. Un colet poate afișa **In transit** în timp ce un [tichet](/ro/parcels/tickets) este în lucru.
+
+| Grup de status | Pasul tipic următor |
+| --- | --- |
+| In transit | Așteptați următoarea actualizare sau deschideți un tichet dacă coletul este întârziat |
+| Exceptions | Urmați [Excepții de livrare](/ro/parcels/delivery-exceptions) |
+| Delivered | Închideți sarcina sau deschideți o reclamație dacă există daună, lipsă sau pierdere |
+
+Dacă statusul grupat pare greșit, păstrați order number și valoarea track and trace și urmați [Statusul unei expedieri nu este actualizat](/ro/support/status-not-updated).

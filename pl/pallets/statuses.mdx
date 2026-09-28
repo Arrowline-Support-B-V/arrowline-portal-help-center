@@ -1,0 +1,39 @@
+---
+title: "Statusy Paleta"
+sidebarTitle: "Statusy Paleta"
+description: "Odczytać statusy planowania palet i zmapowaną oś czasu na paczce."
+icon: "list-check"
+---
+
+Statusy paleta pochodzą z historii statusów paleta. Portal mapuje te zdarzenia na nazwy, które Państwo widzą na liście i na osi czasu paczki.
+
+Odczytać najnowsze zdarzenie na [stronie paczki](/pl/pallets/package-detail). Ta oś czasu kodu kreskowego jest miejscem do śledzenia postępu.
+
+<Frame caption="Wymagany zrzut ekranu — zastąpić oś czasu paczki z kilkoma zmapowanymi statusami.">
+  <img src="/images/screenshot-placeholder.svg" alt="Symbol zastępczy osi czasu statusów paleta" />
+</Frame>
+
+## Statusy planowania
+
+Te statusy są używane w zalogowanym przepływie planowania:
+
+| Status | Co oznacza w portalu |
+| --- | --- |
+| Incoming | Zamówienie nie ma jeszcze najnowszego statusu i pojawia się na liście Incoming |
+| Ready To Ship | Potwierdzili Państwo przesyłkę w Incoming Orders |
+| Shipment Communicated to Carrier | Przesyłka została przekazana przewoźnikowi. Po tym momencie Revert może być zablokowany |
+| Order Cancelled | Zamówienie jest anulowane |
+
+## Nazwy ruchu i dostawy, które mogą Państwo zobaczyć
+
+Zmapowane nazwy obejmują **Picked Up**, **Arrival HUB**, **In Transit**, **Out for Delivery** i **Delivered**.
+
+Delivered może też pojawić się jako nazwa bardziej szczegółowa, na przykład **Delivered, Partially Missing**, **Delivered on Appointment** lub **Delivered, Partly Delivered**.
+
+Nazwy wyjątków mogą obejmować zdarzenia damaged, refused, address closed, returned, on hold lub missing-in-network. Używać nazwy pokazanej na osi czasu. Nie zmieniać jej nazwy.
+
+## Statusy to nie sprawy wsparcia
+
+Paleta może pokazywać **Delivered**, podczas gdy [reklamacja](/pl/pallets/claims) jest nadal otwarta. Status planowania może wyglądać normalnie, podczas gdy obsługiwane jest [zgłoszenie](/pl/pallets/tickets).
+
+Jeśli najnowsze zdarzenie jest brakujące lub wygląda nieprawidłowo, nie tworzyć przesyłki ponownie. Postępować zgodnie z [Status przesyłki nie jest aktualizowany](/pl/support/status-not-updated) i podać numer zamówienia oraz kod kreskowy.

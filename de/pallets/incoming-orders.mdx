@@ -1,0 +1,51 @@
+---
+title: "Incoming-Aufträge in Paletten"
+sidebarTitle: "Incoming-Aufträge in Paletten"
+description: "Planen Sie Incoming-Aufträge in Paletten, laden Sie Labels herunter und bestätigen Sie Ready To Ship."
+icon: "inbox"
+---
+
+Incoming Orders ist die Planungswerkbank für Paletten. Es gibt zwei Listen:
+
+- **Incoming** — Aufträge, die noch keinen letzten Status haben
+- **Ready to ship** — Aufträge, die mit Status **Ready To Ship** bestätigt wurden
+
+<Frame caption="Screenshot erforderlich — ersetzen Sie `/pallet/incoming-orders` mit beiden sichtbaren Listen.">
+  <img src="/images/screenshot-placeholder.svg" alt="Platzhalter für die Werkbank Incoming und Ready to ship" />
+</Frame>
+
+## Die Werkbank öffnen
+
+<Steps>
+  <Step title="Öffnen Sie Paletten">Melden Sie sich an und öffnen Sie den Arbeitsbereich Paletten.</Step>
+  <Step title="Öffnen Sie Incoming Orders">Prüfen Sie die Liste Incoming und die Liste Ready to ship.</Step>
+  <Step title="Wählen Sie die Zeilen">Wählen Sie einen oder mehrere Aufträge oder Barcodes, die Sie verarbeiten müssen.</Step>
+  <Step title="Wählen Sie eine Aktion">Laden Sie Labels herunter, bestätigen Sie die Sendung mit Confirm, nutzen Sie Revert oder Remove nur, wenn eine Korrektur nötig ist.</Step>
+</Steps>
+
+Zeilen in Incoming können Erstellungsdatum, Auftragsnummer, Barcode, Versender und Bestimmungsland zeigen. Sie sehen nur Aufträge Ihres Unternehmens und, bei Distributor-Konten, zulässige Bestimmungsländer.
+
+## Ready To Ship bestätigen
+
+<Steps>
+  <Step title="Wählen Sie Zeilen in Incoming">Wählen Sie die Aufträge oder Barcodes, die bereit sind.</Step>
+  <Step title="Bestätigen Sie die Sendung mit Confirm">Das Portal schreibt **Ready To Ship** für jeden ausgewählten Barcode.</Step>
+  <Step title="Prüfen Sie die Liste Ready to ship">Die Zeilen wechseln in die Liste Ready to ship.</Step>
+</Steps>
+
+## Labels
+
+Sie können Versandlabels für die ausgewählten Zeilen drucken oder herunterladen. Das Portal erstellt ein PDF-Label für jede ausgewählte Palette.
+
+Sie können ein Label auch aus [Paketdetails in Paletten](/de/pallets/package-detail) erzeugen.
+
+## Revert oder Remove
+
+- **Revert** sendet eine Zeile aus Ready to ship zurück nach Incoming, indem der Status Ready To Ship entfernt wird. Revert kann gesperrt sein, nachdem die Sendung an den Frachtführer übermittelt wurde.
+- **Remove** löscht den ausgewählten Barcode aus der Werkbank. Das ist eine dauerhafte Löschung, kein Archivieren.
+
+<Warning>
+  Nutzen Sie Remove nur, wenn der Barcode nicht im Portal bleiben darf. Wenn Sie nur eine Bestätigung rückgängig machen wollen, nutzen Sie Revert.
+</Warning>
+
+Wenn ein erwarteter Auftrag fehlt, prüfen Sie Unternehmen, Bestimmungsland und Filter. Folgen Sie danach [Eine Sendung wird nicht gefunden](/de/support/shipment-not-found).

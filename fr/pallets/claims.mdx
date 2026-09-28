@@ -1,0 +1,55 @@
+---
+title: "Réclamations Palettes"
+sidebarTitle: "Réclamations Palettes"
+description: "Consultez, créez et suivez une réclamation formelle sur une palette."
+icon: "file-circle-exclamation"
+---
+
+Utilisez une réclamation Palettes pour un incident formel tel qu'un dommage, un manquant ou une perte. Une réclamation est distincte du statut de suivi et distincte d'un ticket de support.
+
+<Frame caption="Capture d'écran requise — remplacez `/pallet/claims` avec les filtres et l'action de création de réclamation.">
+  <img src="/images/screenshot-placeholder.svg" alt="Espace réservé pour la liste des réclamations Palettes" />
+</Frame>
+
+## Consulter les réclamations existantes
+
+La liste des réclamations Palettes n'est pas la liste des réclamations Colis. Elle affiche les dossiers palettes de votre entreprise.
+
+Vous pouvez :
+
+- Filtrer par date, statut ou entreprise
+- Exporter la liste filtrée
+- Ouvrir un résultat de réclamation
+- Activer ou désactiver les notifications de réclamation
+- Commencer une nouvelle réclamation
+
+Chaque ligne peut afficher un identifiant de réclamation, la commande ou le code-barres lié lorsqu'il est enregistré, le type, le statut et les dates. Si une référence manque, traitez-la comme indisponible.
+
+## Créer une réclamation
+
+<Steps>
+  <Step title="Ouvrez les réclamations Palettes">Depuis l'espace de travail Palettes, ouvrez Claims et commencez une nouvelle réclamation.</Step>
+  <Step title="Saisissez l'expédition">Ajoutez le numéro de commande et chaque code-barres. Choisissez le transporteur et la nature de la réclamation. La liste des transporteurs inclut Van Duuren, Geodis et CTS.</Step>
+  <Step title="Ajoutez les articles">Pour chaque article, saisissez le nom, la quantité, le prix et une description du problème.</Step>
+  <Step title="Joignez les fichiers requis">Ajoutez la facture. Ajoutez des photos sauf si la nature de la réclamation est lost.</Step>
+  <Step title="Vérifiez le total">Le portail additionne quantité × prix pour chaque article afin d'afficher la valeur de la réclamation.</Step>
+  <Step title="Envoyez une seule fois">Attendez la page de résultat de la réclamation. N'envoyez pas la même réclamation une seconde fois.</Step>
+</Steps>
+
+<Frame caption="Capture d'écran requise — remplacez `/pallet/claims/add`. N'affichez pas de vraies factures ni de photos.">
+  <img src="/images/screenshot-placeholder.svg" alt="Espace réservé pour le formulaire de création d'une réclamation Palettes" />
+</Frame>
+
+Le formulaire ne sera pas envoyé tant que les champs obligatoires ne sont pas complets.
+
+## Après l'envoi
+
+La page de résultat de la réclamation affiche le statut du dossier, l'avancement, la commande, le code-barres et le transporteur liés lorsqu'ils sont disponibles, les commentaires et les pièces jointes, ainsi qu'un contrôle de notification.
+
+<Frame caption="Capture d'écran requise — remplacez `/pallet/claims/result/[id]`. Masquez les montants et les données personnelles.">
+  <img src="/images/screenshot-placeholder.svg" alt="Espace réservé pour un résultat de réclamation Palettes" />
+</Frame>
+
+<Warning>
+  Ne créez pas une seconde réclamation Palettes pour les mêmes codes-barres, sauf si Support vous le demande. Un statut de suivi Delivered peut encore avoir une réclamation ouverte.
+</Warning>

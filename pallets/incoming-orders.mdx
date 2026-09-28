@@ -1,0 +1,51 @@
+---
+title: "Incoming pallet orders"
+sidebarTitle: "Incoming pallet orders"
+description: "Plan incoming pallet orders, download labels and confirm Ready to Ship."
+icon: "inbox"
+---
+
+Incoming Orders is the pallet planning workbench. It has two lists:
+
+- **Incoming** — orders that do not yet have a latest status
+- **Ready to ship** — orders confirmed with status **Ready To Ship**
+
+<Frame caption="Screenshot required — replace `/pallet/incoming-orders` with both lists visible.">
+  <img src="/images/screenshot-placeholder.svg" alt="Placeholder for the incoming orders and ready-to-ship workbench" />
+</Frame>
+
+## Open the workbench
+
+<Steps>
+  <Step title="Open Pallets">Sign in and open the Pallets workspace.</Step>
+  <Step title="Open Incoming Orders">Review the incoming list and the ready-to-ship list.</Step>
+  <Step title="Select the rows">Select one or more orders or barcodes that you need to process.</Step>
+  <Step title="Choose an action">Download labels, confirm the shipment, revert, or remove only if a correction is required.</Step>
+</Steps>
+
+Incoming rows can show creation date, order number, barcode, shipper and destination country. You only see orders for your company and, for distributor accounts, permitted destination countries.
+
+## Confirm Ready to Ship
+
+<Steps>
+  <Step title="Select incoming rows">Choose the orders or barcodes that are ready.</Step>
+  <Step title="Confirm the shipment">The portal writes **Ready To Ship** for each selected barcode.</Step>
+  <Step title="Check the ready-to-ship list">The rows move to the ready-to-ship list.</Step>
+</Steps>
+
+## Labels
+
+You can print or download shipping labels for the selected rows. The portal creates a PDF label for each selected pallet.
+
+You can also generate a label from [Pallet package details](/pallets/package-detail).
+
+## Revert or remove
+
+- **Revert** sends a ready-to-ship row back to incoming by removing the Ready To Ship status. Revert can be blocked after the shipment has been communicated to the carrier.
+- **Remove** deletes the selected barcode from the workbench. This is a permanent delete, not an archive.
+
+<Warning>
+  Use Remove only when the barcode must not stay in the portal. If you only need to undo a confirmation, use Revert.
+</Warning>
+
+If an expected order is missing, check the company, destination country and filters. Then follow [A shipment cannot be found](/support/shipment-not-found).

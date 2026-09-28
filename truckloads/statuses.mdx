@@ -1,0 +1,37 @@
+---
+title: "Truckload statuses"
+sidebarTitle: "Truckload statuses"
+description: "Read the Truckloads statuses shown on the dashboard and shipment list."
+icon: "list-check"
+---
+
+The Truckloads dashboard and shipment list use operational statuses for Full Truck Load transports. The statuses you can expect are:
+
+- Planned
+- In Transit
+- Arrived
+
+<Frame caption="Screenshot required — replace `/ftl` or `/ftl-shipments` status totals. Mask origin and destination.">
+  <img src="/images/screenshot-placeholder.svg" alt="Placeholder for Truckloads status categories" />
+</Frame>
+
+## How to read a status
+
+- Check the last update on the same row
+- Check origin, destination and the stop list
+- Open the [transport detail](/truckloads/shipment-detail) when you need the arrival and departure timeline
+- Look again later if a newer event may still arrive
+
+Times come from the transport record the portal received. They can differ from the time on your clock.
+
+## Statuses are not support cases
+
+A transport can show **In Transit** or **Arrived** while you still need Arrowline to look at a delay or a missing update.
+
+| Status | Typical next step |
+| --- | --- |
+| Planned | Wait for departure, or contact Support if the planned time has passed and nothing moved |
+| In Transit | Follow the stops on the detail page, or contact Support if the transport is overdue |
+| Arrived | Close the task, or contact Support if the destination or timing is wrong |
+
+Truckloads does not use the Parcels or Pallets claim and ticket forms. If the status looks wrong, keep the order number and follow [A shipment status is not updated](/support/status-not-updated).

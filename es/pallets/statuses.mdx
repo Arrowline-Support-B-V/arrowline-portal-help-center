@@ -1,0 +1,39 @@
+---
+title: "Estados de Palets"
+sidebarTitle: "Estados de Palets"
+description: "Lea los estados de planificación de Palets y la línea de tiempo asignada en un paquete."
+icon: "list-check"
+---
+
+Los estados de Palets proceden del historial de estados de palets. El portal asigna esos eventos a los nombres que ve en la lista y en la línea de tiempo del paquete.
+
+Lea el último evento en la [página del paquete](/es/pallets/package-detail). Esa línea de tiempo del código de barras es el lugar para seguir el progreso.
+
+<Frame caption="Captura de pantalla necesaria — sustituya una línea de tiempo de paquete con varios estados asignados.">
+  <img src="/images/screenshot-placeholder.svg" alt="Marcador de posición para una línea de tiempo de estados de Palets" />
+</Frame>
+
+## Estados de planificación
+
+Estos estados se usan en el flujo de planificación con sesión iniciada:
+
+| Estado | Qué significa en el portal |
+| --- | --- |
+| Incoming | El pedido aún no tiene un último estado y aparece en la lista Incoming |
+| Ready To Ship | Usted confirmó el envío en Incoming Orders |
+| Shipment Communicated to Carrier | El envío se ha pasado al transportista. Revert puede quedar bloqueado a partir de este punto |
+| Order Cancelled | El pedido está cancelado |
+
+## Nombres de movimiento y entrega que puede ver
+
+Los nombres asignados incluyen **Picked Up**, **Arrival HUB**, **In Transit**, **Out for Delivery** y **Delivered**.
+
+Delivered también puede aparecer con un nombre más específico, como **Delivered, Partially Missing**, **Delivered on Appointment** o **Delivered, Partly Delivered**.
+
+Los nombres de excepción pueden incluir eventos damaged, refused, address closed, returned, on hold o missing-in-network. Use el nombre que aparece en la línea de tiempo. No lo cambie.
+
+## Los estados no son casos de soporte
+
+Un palet puede mostrar **Delivered** mientras una [reclamación](/es/pallets/claims) sigue abierta. Un estado de planificación puede parecer normal mientras se tramita un [ticket](/es/pallets/tickets).
+
+Si el último evento falta o parece incorrecto, no vuelva a crear el envío. Siga [El estado de un envío no se actualiza](/es/support/status-not-updated) e incluya el número de pedido y el código de barras.

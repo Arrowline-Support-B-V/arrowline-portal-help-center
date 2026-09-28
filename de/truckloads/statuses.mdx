@@ -1,0 +1,37 @@
+---
+title: "Status in Komplettladungen"
+sidebarTitle: "Status in Komplettladungen"
+description: "Lesen Sie die Status von Komplettladungen auf dem Dashboard und in der Sendungsliste."
+icon: "list-check"
+---
+
+Das Dashboard und die Sendungsliste von Komplettladungen nutzen operative Status für Komplettladungen. Die Status, mit denen Sie rechnen können, sind:
+
+- Planned
+- In Transit
+- Arrived
+
+<Frame caption="Screenshot erforderlich — ersetzen Sie die Statussummen von `/ftl` oder `/ftl-shipments`. Blenden Sie Abgangsort und Bestimmungsort aus.">
+  <img src="/images/screenshot-placeholder.svg" alt="Platzhalter für Statuskategorien in Komplettladungen" />
+</Frame>
+
+## Wie Sie einen Status lesen
+
+- Prüfen Sie die letzte Aktualisierung in derselben Zeile
+- Prüfen Sie Abgangsort, Bestimmungsort und die Stoppliste
+- Öffnen Sie das [Transportdetail](/de/truckloads/shipment-detail), wenn Sie die Zeitachse von Ankunft und Abfahrt brauchen
+- Schauen Sie später erneut, wenn noch ein neueres Ereignis eintreffen kann
+
+Uhrzeiten stammen aus dem Transportdatensatz, den das Portal erhalten hat. Sie können von der Uhrzeit auf Ihrer Uhr abweichen.
+
+## Status sind keine Supportfälle
+
+Ein Transport kann **In Transit** oder **Arrived** zeigen, während Sie trotzdem brauchen, dass Arrowline eine Verzögerung oder eine fehlende Aktualisierung prüft.
+
+| Status | Typischer nächster Schritt |
+| --- | --- |
+| Planned | Warten Sie auf die Abfahrt, oder kontaktieren Sie Support, wenn die geplante Zeit vorbei ist und sich nichts bewegt hat |
+| In Transit | Folgen Sie den Stopps auf der Detailseite, oder kontaktieren Sie Support, wenn der Transport überfällig ist |
+| Arrived | Schließen Sie die Aufgabe, oder kontaktieren Sie Support, wenn Bestimmungsort oder Zeitangabe falsch ist |
+
+Komplettladungen nutzt nicht die Claim- und Ticketformulare von Pakete oder Paletten. Wenn der Status falsch wirkt, behalten Sie die Auftragsnummer und folgen Sie [Ein Sendungsstatus wird nicht aktualisiert](/de/support/status-not-updated).

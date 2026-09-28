@@ -1,0 +1,37 @@
+---
+title: "Estados de Cargas completas"
+sidebarTitle: "Estados de Cargas completas"
+description: "Lea los estados de Cargas completas que se muestran en el dashboard y en la lista de envíos."
+icon: "list-check"
+---
+
+El dashboard de Cargas completas y la lista de envíos usan estados operativos para los transportes de carga completa. Los estados que puede esperar son:
+
+- Planned
+- In Transit
+- Arrived
+
+<Frame caption="Captura de pantalla necesaria — sustituya los totales de estado de `/ftl` o `/ftl-shipments`. Enmascare origen y destino.">
+  <img src="/images/screenshot-placeholder.svg" alt="Marcador de posición para las categorías de estado de Cargas completas" />
+</Frame>
+
+## Cómo leer un estado
+
+- Compruebe la última actualización en la misma fila
+- Compruebe el origen, el destino y la lista de paradas
+- Abra el [detalle del transporte](/es/truckloads/shipment-detail) cuando necesite la línea de tiempo de llegadas y salidas
+- Vuelva a mirar más tarde si aún puede llegar un evento más reciente
+
+Las horas proceden del registro del transporte que el portal recibió. Pueden diferir de la hora de su reloj.
+
+## Los estados no son casos de soporte
+
+Un transporte puede mostrar **In Transit** o **Arrived** aunque aún necesite que Arrowline revise un retraso o una actualización que falta.
+
+| Estado | Siguiente paso habitual |
+| --- | --- |
+| Planned | Espere la salida, o póngase en contacto con Support si la hora prevista ya ha pasado y no ha habido movimiento |
+| In Transit | Siga las paradas en la página de detalle, o póngase en contacto con Support si el transporte va con retraso |
+| Arrived | Cierre la tarea, o póngase en contacto con Support si el destino o los horarios son incorrectos |
+
+Cargas completas no usa los formularios de reclamación y de ticket de Paquetes o de Palets. Si el estado parece incorrecto, conserve el número de pedido y siga [El estado de un envío no se actualiza](/es/support/status-not-updated).

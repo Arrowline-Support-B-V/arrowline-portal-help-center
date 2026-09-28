@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="220" viewBox="0 0 720 220" role="img" aria-labelledby="title desc">
+  <title id="title">Screenshot required</title>
+  <desc id="desc">Replace this placeholder with a real Arrowline Portal screenshot.</desc>
+  <rect width="720" height="220" rx="12" fill="#FFF4ED" stroke="#C2BFB8" stroke-width="2" stroke-dasharray="8 6"/>
+  <rect x="28" y="28" width="96" height="64" rx="8" fill="#F23F3F" opacity="0.16"/>
+  <rect x="140" y="36" width="220" height="14" rx="4" fill="#C2BFB8"/>
+  <rect x="140" y="60" width="160" height="10" rx="4" fill="#E4DEDC"/>
+  <text x="360" y="130" text-anchor="middle" fill="#28302D" font-family="Arial, sans-serif" font-size="22" font-weight="700">Screenshot required</text>
+  <text x="360" y="158" text-anchor="middle" fill="#5B615E" font-family="Arial, sans-serif" font-size="14">Replace this placeholder with a real Arrowline Portal screen. Mask emails and personal data.</text>
+</svg>

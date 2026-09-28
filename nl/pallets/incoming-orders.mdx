@@ -1,0 +1,51 @@
+---
+title: "Incoming palletorders"
+sidebarTitle: "Incoming palletorders"
+description: "Plan incoming palletorders, download labels en bevestig Ready To Ship."
+icon: "inbox"
+---
+
+Incoming Orders is de planningstafel voor paletten. Er zijn twee lijsten:
+
+- **Incoming** — orders die nog geen laatste status hebben
+- **Ready to ship** — orders die zijn bevestigd met status **Ready To Ship**
+
+<Frame caption="Screenshot vereist — vervang `/pallet/incoming-orders` met beide lijsten zichtbaar.">
+  <img src="/images/screenshot-placeholder.svg" alt="Tijdelijke aanduiding voor de werkbank Incoming en Ready to ship" />
+</Frame>
+
+## De werkbank openen
+
+<Steps>
+  <Step title="Open Paletten">Log in en open de werkruimte Paletten.</Step>
+  <Step title="Open Incoming Orders">Bekijk de lijst Incoming en de lijst Ready to ship.</Step>
+  <Step title="Selecteer de rijen">Selecteer één of meer orders of barcodes die u wilt verwerken.</Step>
+  <Step title="Kies een actie">Download labels, gebruik Confirm, Revert of Remove alleen als een correctie nodig is.</Step>
+</Steps>
+
+Rijen in Incoming kunnen aanmaakdatum, ordernummer, barcode, verzender en bestemmingsland tonen. U ziet alleen orders van uw bedrijf en, voor distributeuraccounts, toegestane bestemmingslanden.
+
+## Ready To Ship bevestigen
+
+<Steps>
+  <Step title="Selecteer rijen in Incoming">Kies de orders of barcodes die gereed zijn.</Step>
+  <Step title="Bevestig de zending met Confirm">Het portaal schrijft **Ready To Ship** voor elke geselecteerde barcode.</Step>
+  <Step title="Controleer de lijst Ready to ship">De rijen verhuizen naar de lijst Ready to ship.</Step>
+</Steps>
+
+## Labels
+
+U kunt verzendlabels voor de geselecteerde rijen afdrukken of downloaden. Het portaal maakt een PDF-label voor elke geselecteerde pallet.
+
+U kunt ook een label maken vanuit [Pakketdetails in Paletten](/nl/pallets/package-detail).
+
+## Revert of Remove
+
+- **Revert** stuurt een rij uit Ready to ship terug naar Incoming door de status Ready To Ship te verwijderen. Revert kan worden geblokkeerd nadat de zending aan de vervoerder is doorgegeven.
+- **Remove** verwijdert de geselecteerde barcode van de werkbank. Dit is een permanente verwijdering, geen archivering.
+
+<Warning>
+  Gebruik Remove alleen wanneer de barcode niet in het portaal mag blijven. Als u alleen een bevestiging ongedaan wilt maken, gebruik dan Revert.
+</Warning>
+
+Als een verwachte order ontbreekt, controleer het bedrijf, het bestemmingsland en de filters. Volg daarna [Een zending kan niet worden gevonden](/nl/support/shipment-not-found).

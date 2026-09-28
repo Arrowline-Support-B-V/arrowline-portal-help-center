@@ -1,0 +1,39 @@
+---
+title: "Estados de Paquetes"
+sidebarTitle: "Estados de Paquetes"
+description: "Lea los estados agrupados de Paquetes que se muestran en el dashboard y en la lista de envíos."
+icon: "list-check"
+---
+
+El portal agrupa los eventos brutos del transportista en categorías operativas en el dashboard de Paquetes y en la lista de envíos. Las categorías que puede esperar son:
+
+- In transit
+- Exceptions
+- Delivered
+
+La etiqueta de una fila es este estado agrupado, no cada nombre de escaneo subyacente.
+
+<Frame caption="Captura de pantalla necesaria — sustituya los totales de estado de `/parcel` o `/shipments`. Enmascare los datos de cliente.">
+  <img src="/images/screenshot-placeholder.svg" alt="Marcador de posición para las categorías de estado de Paquetes" />
+</Frame>
+
+## Cómo leer un estado
+
+- Compruebe la marca de tiempo del último evento
+- Compruebe el destino y el transportista en la misma fila
+- Vea si el estado está en el grupo Exceptions
+- Vuelva a mirar más tarde si aún puede llegar un evento más reciente
+
+Las horas proceden del evento que el portal recibió. Pueden diferir de la hora de su reloj.
+
+## Los estados no son casos de soporte
+
+Un paquete puede mostrar **Delivered** mientras una [reclamación](/es/parcels/claims) sigue abierta. Un paquete puede mostrar **In transit** mientras se tramita un [ticket](/es/parcels/tickets).
+
+| Grupo de estado | Siguiente paso habitual |
+| --- | --- |
+| In transit | Espere la siguiente actualización, o abra un ticket si el paquete va con retraso |
+| Exceptions | Siga [Excepciones de entrega](/es/parcels/delivery-exceptions) |
+| Delivered | Cierre la tarea, o abra una reclamación si hay daño, faltante o pérdida |
+
+Si el estado agrupado parece incorrecto, conserve el número de pedido y el valor de track and trace y siga [El estado de un envío no se actualiza](/es/support/status-not-updated).

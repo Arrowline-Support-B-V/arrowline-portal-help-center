@@ -1,0 +1,59 @@
+---
+title: "Eine Palette ohne Anmeldung verfolgen"
+sidebarTitle: "Eine Palette ohne Anmeldung verfolgen"
+description: "Verfolgen Sie eine Palette nach Auftragsnummer oder Trackingnummer auf der öffentlichen Verfolgungsseite."
+icon: "location-dot"
+---
+
+Die öffentliche Palettenverfolgung braucht kein Portalkonto. Nutzen Sie sie, wenn Sie eine Auftragsnummer oder eine Trackingnummer haben und nur den Fortschritt sehen möchten.
+
+Diese Seite gilt nur für **Paletten**. Sie findet keine Paketsendung.
+
+<Frame caption="Screenshot erforderlich — ersetzen Sie `/track`. Zeigen Sie keine echte Kennung.">
+  <img src="/images/screenshot-placeholder.svg" alt="Platzhalter für die Suche der öffentlichen Palettenverfolgung" />
+</Frame>
+
+## Nach einer Palette suchen
+
+<Steps>
+  <Step title="Öffnen Sie die öffentliche Verfolgung">Gehen Sie zur öffentlichen Verfolgungsseite für Paletten.</Step>
+  <Step title="Wählen Sie die Suchart">Wählen Sie **Order Number** oder **Tracking Number**.</Step>
+  <Step title="Geben Sie die vollständige Kennung ein">Tippen Sie den vollständigen Wert. Kürzen Sie ihn nicht.</Step>
+  <Step title="Suchen">Warten Sie auf das Ergebnis. Ein Treffer öffnet das Verfolgungsdetail. Kein Treffer zeigt eine Nicht-gefunden-Meldung.</Step>
+</Steps>
+
+Wenn Sie nach Auftragsnummer suchen und der Auftrag mehr als einen Barcode hat, öffnet das Portal den ersten passenden Barcode. Wechseln Sie den Barcode auf der Detailseite.
+
+Ein geteilter Verfolgungslink, der nur eine Kennung enthält, wird automatisch aufgelöst. Wenn er nicht zugeordnet werden kann, kehrt das Portal zur Suchseite mit einer Nicht-gefunden-Meldung zurück.
+
+## Das Verfolgungsdetail lesen
+
+Die öffentliche Detailseite kann zeigen:
+
+- Auftragsnummer und Barcode
+- Bestimmungsort
+- Gewicht
+- Frachtführer
+- Voraussichtliche Lieferung, sofern verfügbar
+- Die zugeordnete Status-Zeitachse
+
+<Frame caption="Screenshot erforderlich — ersetzen Sie `/track/[orderNumber]/[barcode]`. Blenden Sie Bestimmungsdaten aus.">
+  <img src="/images/screenshot-placeholder.svg" alt="Platzhalter für das Detail der öffentlichen Palettenverfolgung" />
+</Frame>
+
+Wenn der Auftrag mehrere Barcodes hat, nutzen Sie die Barcode-Auswahl, um ein anderes Paket desselben Auftrags zu öffnen. Die Seite aktualisiert sich etwa alle 30 Sekunden, solange sie geöffnet bleibt.
+
+<Info>
+  Die voraussichtliche Lieferung wird nur angezeigt, wenn das Portal diese Information für den Barcode hat. Wenn sie fehlt, kann der Rest des Verfolgungsdetails trotzdem stimmen.
+</Info>
+
+## Wenn Sie den angemeldeten Arbeitsbereich brauchen
+
+Melden Sie sich an und nutzen Sie den Arbeitsbereich Paletten, wenn Sie Folgendes brauchen:
+
+- [Incoming orders](/de/pallets/incoming-orders) planen oder bestätigen
+- Ein Versandlabel herunterladen
+- Einen [Claim](/de/pallets/claims) oder ein [Ticket](/de/pallets/tickets) in Paletten öffnen
+- Die [Sendungsliste](/de/pallets/shipments) nach der Anmeldung prüfen
+
+Siehe [Paletten im Portal](/de/pallets/overview) und [Eine Sendung wird nicht gefunden](/de/support/shipment-not-found).

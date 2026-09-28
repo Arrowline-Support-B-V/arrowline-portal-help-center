@@ -1,0 +1,39 @@
+---
+title: "Statussen in Pakketten"
+sidebarTitle: "Statussen in Pakketten"
+description: "Lees de gegroepeerde statussen van Pakketten op het dashboard en de zendingslijst."
+icon: "list-check"
+---
+
+Het portaal groepeert ruwe vervoerdersgebeurtenissen in operationele categorieën op het dashboard van Pakketten en de zendingslijst. De categorieën die u kunt verwachten zijn:
+
+- In transit
+- Exceptions
+- Delivered
+
+Het label op een rij is deze gegroepeerde status, niet elke onderliggende scannaam.
+
+<Frame caption="Screenshot vereist — vervang de statustotalen van `/parcel` of `/shipments`. Maskeer klantdata.">
+  <img src="/images/screenshot-placeholder.svg" alt="Tijdelijke aanduiding voor statuscategorieën in Pakketten" />
+</Frame>
+
+## Hoe u een status leest
+
+- Controleer de tijdstempel van de laatste gebeurtenis
+- Controleer de bestemming en de vervoerder op dezelfde rij
+- Kijk of de status in de groep Exceptions valt
+- Kijk later opnieuw als er nog een nieuwere gebeurtenis kan binnenkomen
+
+Tijden komen uit de gebeurtenis die het portaal heeft ontvangen. Die kunnen afwijken van de tijd op uw klok.
+
+## Statussen zijn geen supportzaken
+
+Een pakketzending kan **Delivered** tonen terwijl een [claim](/nl/parcels/claims) nog openstaat. Een pakketzending kan **In transit** tonen terwijl een [ticket](/nl/parcels/tickets) wordt behandeld.
+
+| Statusgroep | Typische volgende stap |
+| --- | --- |
+| In transit | Wacht op de volgende update, of open een ticket als de zending te laat is |
+| Exceptions | Volg [Leveringsuitzonderingen](/nl/parcels/delivery-exceptions) |
+| Delivered | Sluit de taak af, of open een claim bij schade, tekort of vermissing |
+
+Als de gegroepeerde status er verkeerd uitziet, bewaar het ordernummer en de track-and-trace-waarde en volg [Een zendingsstatus is niet bijgewerkt](/nl/support/status-not-updated).

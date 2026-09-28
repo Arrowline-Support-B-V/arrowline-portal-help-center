@@ -1,0 +1,37 @@
+---
+title: "Detalii pachet Paleți"
+sidebarTitle: "Detalii pachet Paleți"
+description: "Consultați un barcode de palet, cronologia, expected delivery și eticheta."
+icon: "barcode"
+---
+
+Pagina pachetului este vederea după autentificare a unui barcode. Folosiți-o când pagina de comandă nu este suficientă.
+
+<Frame caption="Captură de ecran necesară — înlocuiți `/pallet/package-detail/[barcode]`. Mascați barcode-ul.">
+  <img src="/images/screenshot-placeholder.svg" alt="Substituent pentru detaliul pachetului de paleți" />
+</Frame>
+
+## Deschideți un pachet
+
+- Din [pagina de comandă](/ro/pallets/shipment-detail), selectați barcode-ul
+- Din [lista de expedieri](/ro/pallets/shipments), deschideți rândul cu barcode-ul potrivit
+- Din [urmărirea publică](/ro/pallets/public-tracking), dacă aveți nevoie doar de progres și nu de acțiuni după autentificare
+
+## Ce poate afișa pagina pachetului
+
+- Barcode și comanda aferentă
+- Datele expedierii pentru acel pachet
+- Cronologia de status pentru barcode
+- Expected delivery, când este disponibil
+- Carrier și volume, când sunt disponibile
+- Notificări de status
+- Un tichet de palet legat, când se potrivește cu order number și barcode
+- Un PDF de etichetă de expediere
+
+Cronologia folosește evenimentele de status stocate pentru acel barcode, ordonate după dată și oră.
+
+<Info>
+  Puteți activa sau dezactiva notificările de status de pe această pagină, când este afișat acel control.
+</Info>
+
+Dacă barcode-ul lipsește sau este în afara domeniului, portalul îl tratează ca not found. Includeți atât order number, cât și barcode-ul când contactați Support.

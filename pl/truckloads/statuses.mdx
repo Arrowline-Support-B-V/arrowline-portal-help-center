@@ -1,0 +1,37 @@
+---
+title: "Statusy Ładunek kompletny"
+sidebarTitle: "Statusy Ładunek kompletny"
+description: "Odczytać statusy Ładunki kompletne pokazywane na pulpicie i liście przesyłek."
+icon: "list-check"
+---
+
+Pulpit Ładunki kompletne i lista przesyłek używają statusów operacyjnych dla transportów kompletnych. Statusy, których można się spodziewać, to:
+
+- Planned
+- In Transit
+- Arrived
+
+<Frame caption="Wymagany zrzut ekranu — zastąpić sumy statusów `/ftl` lub `/ftl-shipments`. Zamaskować miejsce nadania i miejsce przeznaczenia.">
+  <img src="/images/screenshot-placeholder.svg" alt="Symbol zastępczy kategorii statusów Ładunki kompletne" />
+</Frame>
+
+## Jak odczytać status
+
+- Sprawdzić ostatnią aktualizację w tym samym wierszu
+- Sprawdzić miejsce nadania, miejsce przeznaczenia i listę przystanków
+- Otworzyć [szczegóły transportu](/pl/truckloads/shipment-detail), gdy potrzebują Państwo osi czasu przyjazdów i wyjazdów
+- Sprawdzić ponownie później, jeśli nowsze zdarzenie może jeszcze nadejść
+
+Czasy pochodzą z rekordu transportu, który portal otrzymał. Mogą różnić się od czasu na Państwa zegarze.
+
+## Statusy to nie sprawy wsparcia
+
+Transport może pokazywać **In Transit** lub **Arrived**, podczas gdy nadal potrzebują Państwo, aby Arrowline sprawdził opóźnienie lub brakującą aktualizację.
+
+| Status | Typowy następny krok |
+| --- | --- |
+| Planned | Poczekać na wyjazd albo skontaktować się z Support, jeśli planowany czas minął i nic się nie ruszyło |
+| In Transit | Śledzić przystanki na stronie szczegółów albo skontaktować się z Support, jeśli transport jest spóźniony |
+| Arrived | Zamknąć zadanie albo skontaktować się z Support, jeśli miejsce przeznaczenia lub czas są nieprawidłowe |
+
+Ładunki kompletne nie używa formularzy reklamacji i zgłoszeń Paczki ani Palety. Jeśli status wygląda nieprawidłowo, zachować numer zamówienia i postępować zgodnie z [Status przesyłki nie jest aktualizowany](/pl/support/status-not-updated).

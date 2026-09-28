@@ -1,0 +1,94 @@
+/* Arrowline brand tokens from https://arrowlinebrandguide.framer.website/ */
+:root {
+  --arrow-red: #f23f3f;
+  --line-red: #bf2e3f;
+  --paracetamol-white: #fff4ed;
+  --coffee-black: #28302d;
+  --container-grey: #c2bfb8;
+}
+
+@font-face {
+  font-family: "Volksans";
+  src: url("https://framerusercontent.com/assets/bRrzMXX9sRLksR2EruXoaaP3aQ.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Volksans";
+  src: url("https://framerusercontent.com/assets/dpkPakdpNG01EjYRw4kiZ5lAu6M.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+#navbar {
+  position: relative;
+  background: var(--paracetamol-white);
+  border-bottom: 1px solid var(--container-grey);
+}
+
+#navbar img {
+  height: 32px;
+  width: auto;
+}
+
+/* Hide Mintlify's switcher. It stays on English and sends tab clicks back to /en. */
+#navbar div:has(> #localization-select-trigger) {
+  display: none !important;
+}
+
+#arrow-locale-switcher {
+  position: absolute;
+  top: 1rem;
+  right: 4.75rem;
+  z-index: 40;
+  height: 32px;
+  padding: 0 0.5rem;
+  border: 1px solid var(--container-grey);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--coffee-black);
+  font-family: Volksans, sans-serif;
+  font-size: 14px;
+}
+
+html.light h1,
+html.light h2,
+html.light h3 {
+  color: var(--coffee-black);
+}
+
+footer {
+  border-top: 1px solid var(--container-grey);
+}
+
+#footer a[href*="mintlify.com"],
+#footer a[href*="mintlify.com"]:hover,
+#footer a[href*="mintlify.com"] * {
+  color: var(--paracetamol-white) !important;
+  fill: var(--paracetamol-white) !important;
+}
+
+html.dark #footer a[href*="mintlify.com"],
+html.dark #footer a[href*="mintlify.com"]:hover,
+html.dark #footer a[href*="mintlify.com"] * {
+  color: var(--coffee-black) !important;
+  fill: var(--coffee-black) !important;
+}
+
+html.dark #navbar {
+  background: var(--coffee-black);
+  border-bottom-color: #3a433f;
+}
+
+html.dark #arrow-locale-switcher {
+  background: var(--coffee-black);
+  color: var(--paracetamol-white);
+  border-color: #3a433f;
+}
+
+html.dark footer {
+  border-top-color: #3a433f;
+}

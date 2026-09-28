@@ -1,0 +1,39 @@
+---
+title: "Estados Paletes"
+sidebarTitle: "Estados Paletes"
+description: "Leia os estados de planeamento de paletes e a cronologia mapeada num volume."
+icon: "list-check"
+---
+
+Os estados de paletes vêm do histórico de estados de paletes. O portal mapeia esses eventos para os nomes que vê na lista e na cronologia do volume.
+
+Leia o evento mais recente na [página do volume](/pt/pallets/package-detail). Essa cronologia do código de barras é o local para acompanhar o progresso.
+
+<Frame caption="Captura de ecrã necessária — substitua uma cronologia de volume com vários estados mapeados.">
+  <img src="/images/screenshot-placeholder.svg" alt="Marcador de posição para uma cronologia de estados de paletes" />
+</Frame>
+
+## Estados de planeamento
+
+Estes estados são utilizados no fluxo de planeamento com sessão iniciada:
+
+| Estado | O que significa no portal |
+| --- | --- |
+| Incoming | A encomenda ainda não tem um estado mais recente e aparece na lista Incoming |
+| Ready To Ship | Confirmou o envio em Incoming Orders |
+| Shipment Communicated to Carrier | O envio foi passado à transportadora. O Revert pode ficar bloqueado a partir deste ponto |
+| Order Cancelled | A encomenda está cancelada |
+
+## Nomes de movimento e de entrega que pode ver
+
+Os nomes mapeados incluem **Picked Up**, **Arrival HUB**, **In Transit**, **Out for Delivery** e **Delivered**.
+
+Delivered também pode aparecer com um nome mais específico, como **Delivered, Partially Missing**, **Delivered on Appointment** ou **Delivered, Partly Delivered**.
+
+Os nomes de exceção podem incluir eventos de damaged, refused, address closed, returned, on hold ou missing-in-network. Utilize o nome apresentado na cronologia. Não o altere.
+
+## Os estados não são casos de apoio
+
+Uma palete pode mostrar **Delivered** enquanto uma [reclamação](/pt/pallets/claims) ainda está em aberto. Um estado de planeamento pode parecer normal enquanto um [ticket](/pt/pallets/tickets) está a ser tratado.
+
+Se o evento mais recente estiver em falta ou parecer errado, não recrie o envio. Siga [O estado de um envio não é atualizado](/pt/support/status-not-updated) e inclua o número de encomenda e o código de barras.

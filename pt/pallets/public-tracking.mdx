@@ -1,0 +1,59 @@
+---
+title: "Seguir uma palete sem iniciar sessão"
+sidebarTitle: "Seguir uma palete sem iniciar sessão"
+description: "Acompanhe uma palete pelo número de encomenda ou pelo número de tracking na página de seguimento público."
+icon: "location-dot"
+---
+
+O seguimento público de paletes não exige uma conta no portal. Utilize-o quando tiver um número de encomenda ou um número de tracking e só precisar de ver o progresso.
+
+Esta página é apenas para **Paletes**. Não encontra uma encomenda.
+
+<Frame caption="Captura de ecrã necessária — substitua `/track`. Não mostre um identificador real.">
+  <img src="/images/screenshot-placeholder.svg" alt="Marcador de posição para a pesquisa de seguimento público de paletes" />
+</Frame>
+
+## Pesquisar uma palete
+
+<Steps>
+  <Step title="Abrir o seguimento público">Vá à página de seguimento público de paletes.</Step>
+  <Step title="Escolher o tipo de pesquisa">Selecione **Order Number** ou **Tracking Number**.</Step>
+  <Step title="Introduzir o identificador completo">Escreva o valor completo. Não o encurte.</Step>
+  <Step title="Pesquisar">Aguarde o resultado. Uma correspondência abre o detalhe do seguimento. Sem correspondência, é apresentada uma mensagem de não encontrado.</Step>
+</Steps>
+
+Se pesquisar por número de encomenda e a encomenda tiver mais do que um código de barras, o portal abre o primeiro código de barras correspondente. Mude de código de barras na página de detalhe.
+
+Uma ligação de seguimento partilhada que contém apenas um identificador é resolvida automaticamente. Se não for possível estabelecer correspondência, o portal regressa à página de pesquisa com uma mensagem de não encontrado.
+
+## Ler o detalhe do seguimento
+
+A página de detalhe pública pode mostrar:
+
+- Número de encomenda e código de barras
+- Destino
+- Peso
+- Transportadora
+- Entrega prevista, quando disponível
+- A cronologia de estados mapeada
+
+<Frame caption="Captura de ecrã necessária — substitua `/track/[orderNumber]/[barcode]`. Oculte dados de destino.">
+  <img src="/images/screenshot-placeholder.svg" alt="Marcador de posição para o detalhe do seguimento público de paletes" />
+</Frame>
+
+Se a encomenda tiver vários códigos de barras, utilize o seletor de código de barras para abrir outro volume na mesma encomenda. A página atualiza-se aproximadamente a cada 30 segundos enquanto permanece aberta.
+
+<Info>
+  A entrega prevista só é apresentada quando o portal tem essa informação para o código de barras. Se estiver em falta, o resto do detalhe do seguimento pode mesmo assim estar correto.
+</Info>
+
+## Quando precisa do espaço de trabalho com sessão iniciada
+
+Inicie sessão e utilize o espaço de trabalho Paletes quando precisar de:
+
+- Planear ou confirmar [encomendas Incoming](/pt/pallets/incoming-orders)
+- Transferir uma etiqueta de envio
+- Abrir uma [reclamação](/pt/pallets/claims) ou um [ticket](/pt/pallets/tickets) de paletes
+- Consultar a [lista de envios](/pt/pallets/shipments) com sessão iniciada
+
+Consulte [Paletes no portal](/pt/pallets/overview) e [Não é possível encontrar um envio](/pt/support/shipment-not-found).

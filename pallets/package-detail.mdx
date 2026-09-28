@@ -1,0 +1,37 @@
+---
+title: "Pallet package details"
+sidebarTitle: "Pallet package details"
+description: "Review one pallet barcode, its timeline, expected delivery and label."
+icon: "barcode"
+---
+
+The package page is the signed-in view of one barcode. Use it when the order page is not enough.
+
+<Frame caption="Screenshot required — replace `/pallet/package-detail/[barcode]`. Mask the barcode.">
+  <img src="/images/screenshot-placeholder.svg" alt="Placeholder for pallet package detail" />
+</Frame>
+
+## Open a package
+
+- From the [order page](/pallets/shipment-detail), select the barcode
+- From the [shipment list](/pallets/shipments), open the matching barcode row
+- From [public tracking](/pallets/public-tracking), if you only need progress and do not need signed-in actions
+
+## What the package page can show
+
+- Barcode and related order
+- Shipment facts for that package
+- Status timeline for the barcode
+- Expected delivery, when available
+- Carrier and volume, when available
+- Status notifications
+- A linked pallet ticket, when one matches the order and barcode
+- A shipping-label PDF
+
+The timeline uses the status events stored for that barcode, ordered by date and time.
+
+<Info>
+  You can switch status notifications on or off from this page when that control is shown.
+</Info>
+
+If the barcode is missing or out of scope, the portal treats it as not found. Include both the order number and the barcode when you contact Support.

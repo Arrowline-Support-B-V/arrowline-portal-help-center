@@ -1,0 +1,37 @@
+---
+title: "Statusuri Transporturi complete"
+sidebarTitle: "Statusuri Transporturi complete"
+description: "Citiți statusurile Transporturi complete afișate pe tabloul de bord și în lista de expedieri."
+icon: "list-check"
+---
+
+Tabloul de bord Transporturi complete și lista de expedieri folosesc statusuri operaționale pentru transporturile complete. Statusurile pe care le puteți aștepta sunt:
+
+- Planned
+- In Transit
+- Arrived
+
+<Frame caption="Captură de ecran necesară — înlocuiți totalurile de status din `/ftl` sau `/ftl-shipments`. Mascați origin și destination.">
+  <img src="/images/screenshot-placeholder.svg" alt="Substituent pentru categoriile de status Transporturi complete" />
+</Frame>
+
+## Cum se citește un status
+
+- Verificați last update pe același rând
+- Verificați origin, destination și lista de opriri
+- Deschideți [detaliul transportului](/ro/truckloads/shipment-detail) când aveți nevoie de cronologia de arrival și departure
+- Priviți din nou mai târziu dacă un eveniment mai nou poate sosi încă
+
+Orele vin din înregistrarea de transport primită de portal. Pot diferi de ora de pe ceasul dumneavoastră.
+
+## Statusurile nu sunt cazuri de asistență
+
+Un transport poate afișa **In Transit** sau **Arrived** în timp ce tot aveți nevoie ca Arrowline să analizeze o întârziere sau o actualizare lipsă.
+
+| Status | Pasul următor tipic |
+| --- | --- |
+| Planned | Așteptați departure sau contactați Support dacă ora planned a trecut și nimic nu s-a mișcat |
+| In Transit | Urmăriți opririle pe pagina de detaliu sau contactați Support dacă transportul este overdue |
+| Arrived | Închideți lucrarea sau contactați Support dacă destination sau orarul este greșit |
+
+Transporturi complete nu folosește formularele de reclamație și tichet din Colete sau Paleți. Dacă statusul pare greșit, păstrați order number și urmați [Statusul unei expedieri nu este actualizat](/ro/support/status-not-updated).

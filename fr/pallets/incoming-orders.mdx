@@ -1,0 +1,51 @@
+---
+title: "Incoming orders de palettes"
+sidebarTitle: "Incoming orders de palettes"
+description: "Planifiez les incoming orders de palettes, téléchargez les étiquettes et confirmez Ready To Ship."
+icon: "inbox"
+---
+
+Incoming Orders est l'espace de planification des palettes. Il comporte deux listes :
+
+- **Incoming** — commandes qui n'ont pas encore de dernier statut
+- **Ready to ship** — commandes confirmées avec le statut **Ready To Ship**
+
+<Frame caption="Capture d'écran requise — remplacez `/pallet/incoming-orders` avec les deux listes visibles.">
+  <img src="/images/screenshot-placeholder.svg" alt="Espace réservé pour l'espace de planification Incoming et Ready to ship" />
+</Frame>
+
+## Ouvrir l'espace de planification
+
+<Steps>
+  <Step title="Ouvrez Palettes">Connectez-vous et ouvrez l'espace de travail Palettes.</Step>
+  <Step title="Ouvrez Incoming Orders">Consultez la liste Incoming et la liste Ready to ship.</Step>
+  <Step title="Sélectionnez les lignes">Sélectionnez une ou plusieurs commandes ou codes-barres à traiter.</Step>
+  <Step title="Choisissez une action">Téléchargez les étiquettes, confirmez l'expédition avec Confirm, utilisez Revert, ou Remove uniquement si une correction est nécessaire.</Step>
+</Steps>
+
+Les lignes Incoming peuvent afficher la date de création, le numéro de commande, le code-barres, l'expéditeur et le pays de destination. Vous ne voyez que les commandes de votre entreprise et, pour les comptes distributeur, les pays de destination autorisés.
+
+## Confirmer Ready To Ship
+
+<Steps>
+  <Step title="Sélectionnez des lignes Incoming">Choisissez les commandes ou codes-barres qui sont prêts.</Step>
+  <Step title="Confirmez l'expédition avec Confirm">Le portail écrit **Ready To Ship** pour chaque code-barres sélectionné.</Step>
+  <Step title="Vérifiez la liste Ready to ship">Les lignes passent dans la liste Ready to ship.</Step>
+</Steps>
+
+## Étiquettes
+
+Vous pouvez imprimer ou télécharger des étiquettes d'expédition pour les lignes sélectionnées. Le portail crée une étiquette PDF pour chaque palette sélectionnée.
+
+Vous pouvez aussi générer une étiquette depuis [Détails d'un colis Palettes](/fr/pallets/package-detail).
+
+## Revert ou Remove
+
+- **Revert** renvoie une ligne Ready to ship vers Incoming en retirant le statut Ready To Ship. Revert peut être bloqué après que l'expédition a été communiquée au transporteur.
+- **Remove** supprime le code-barres sélectionné de l'espace de planification. C'est une suppression définitive, pas un archivage.
+
+<Warning>
+  Utilisez Remove uniquement lorsque le code-barres ne doit pas rester dans le portail. Si vous avez seulement besoin d'annuler une confirmation, utilisez Revert.
+</Warning>
+
+Si une commande attendue manque, vérifiez l'entreprise, le pays de destination et les filtres. Suivez ensuite [Une expédition est introuvable](/fr/support/shipment-not-found).

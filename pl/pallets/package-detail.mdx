@@ -1,0 +1,37 @@
+---
+title: "Szczegóły paczki Paleta"
+sidebarTitle: "Szczegóły paczki Paleta"
+description: "Przejrzeć jeden kod kreskowy palety, jego oś czasu, oczekiwaną dostawę i etykietę."
+icon: "barcode"
+---
+
+Strona paczki to zalogowany widok jednego kodu kreskowego. Używać jej, gdy strona zamówienia nie wystarcza.
+
+<Frame caption="Wymagany zrzut ekranu — zastąpić `/pallet/package-detail/[barcode]`. Zamaskować kod kreskowy.">
+  <img src="/images/screenshot-placeholder.svg" alt="Symbol zastępczy szczegółów paczki paleta" />
+</Frame>
+
+## Otworzyć paczkę
+
+- Ze [strony zamówienia](/pl/pallets/shipment-detail) wybrać kod kreskowy
+- Z [listy przesyłek](/pl/pallets/shipments) otworzyć pasujący wiersz kodu kreskowego
+- Z [publicznego śledzenia](/pl/pallets/public-tracking), jeśli potrzebują Państwo wyłącznie postępu i nie potrzebują czynności po zalogowaniu
+
+## Co może pokazywać strona paczki
+
+- Kod kreskowy i powiązane zamówienie
+- Dane przesyłki dla tej paczki
+- Oś czasu statusów dla kodu kreskowego
+- Oczekiwaną dostawę, gdy jest dostępna
+- Przewoźnika i objętość, gdy są dostępne
+- Powiadomienia o statusie
+- Powiązane zgłoszenie paleta, gdy pasuje do zamówienia i kodu kreskowego
+- Plik PDF etykiety wysyłkowej
+
+Oś czasu używa zdarzeń statusu zapisanych dla tego kodu kreskowego, uporządkowanych według daty i godziny.
+
+<Info>
+  Na tej stronie można włączać lub wyłączać powiadomienia o statusie, gdy ten element sterujący jest widoczny.
+</Info>
+
+Jeśli kod kreskowy jest brakujący lub poza zakresem, portal traktuje go jako nieznaleziony. Przy kontakcie z Support podawać zarówno numer zamówienia, jak i kod kreskowy.

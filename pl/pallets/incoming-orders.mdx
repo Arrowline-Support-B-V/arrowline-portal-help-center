@@ -1,0 +1,51 @@
+---
+title: "Przychodzące zamówienia paletowe"
+sidebarTitle: "Przychodzące zamówienia paletowe"
+description: "Planować przychodzące zamówienia paletowe, pobierać etykiety i potwierdzać Ready To Ship."
+icon: "inbox"
+---
+
+Incoming Orders to stanowisko planowania paleta. Ma dwie listy:
+
+- **Incoming** — zamówienia, które nie mają jeszcze najnowszego statusu
+- **Ready to ship** — zamówienia potwierdzone statusem **Ready To Ship**
+
+<Frame caption="Wymagany zrzut ekranu — zastąpić `/pallet/incoming-orders` z widocznymi obiema listami.">
+  <img src="/images/screenshot-placeholder.svg" alt="Symbol zastępczy stanowiska Incoming Orders i Ready to ship" />
+</Frame>
+
+## Otworzyć stanowisko
+
+<Steps>
+  <Step title="Otworzyć Palety">Zalogować się i otworzyć obszar roboczy Palety.</Step>
+  <Step title="Otworzyć Incoming Orders">Przejrzeć listę Incoming oraz listę Ready to ship.</Step>
+  <Step title="Wybrać wiersze">Wybrać jedno lub więcej zamówień albo kodów kreskowych, które trzeba przetworzyć.</Step>
+  <Step title="Wybrać czynność">Pobrać etykiety, potwierdzić przesyłkę, użyć Revert albo Remove tylko wtedy, gdy potrzebna jest korekta.</Step>
+</Steps>
+
+Wiersze Incoming mogą pokazywać datę utworzenia, numer zamówienia, kod kreskowy, nadawcę i kraj przeznaczenia. Widzą Państwo wyłącznie zamówienia swojej firmy, a w przypadku kont dystrybutorów — dozwolone kraje przeznaczenia.
+
+## Potwierdzić Ready To Ship
+
+<Steps>
+  <Step title="Wybrać wiersze Incoming">Wybrać zamówienia lub kody kreskowe, które są gotowe.</Step>
+  <Step title="Wybrać Confirm">Portal zapisuje **Ready To Ship** dla każdego wybranego kodu kreskowego.</Step>
+  <Step title="Sprawdzić listę Ready to ship">Wiersze przechodzą na listę Ready to ship.</Step>
+</Steps>
+
+## Etykiety
+
+Dla wybranych wierszy można drukować lub pobierać etykiety wysyłkowe. Portal tworzy etykietę PDF dla każdej wybranej palety.
+
+Etykietę można także wygenerować ze [Szczegółów paczki Paleta](/pl/pallets/package-detail).
+
+## Revert lub Remove
+
+- **Revert** odsyła wiersz Ready to ship z powrotem do Incoming przez usunięcie statusu Ready To Ship. Revert może być zablokowany po przekazaniu przesyłki przewoźnikowi.
+- **Remove** usuwa wybrany kod kreskowy ze stanowiska. To trwałe usunięcie, a nie archiwizacja.
+
+<Warning>
+  Użyć Remove tylko wtedy, gdy kod kreskowy nie może pozostać w portalu. Jeśli chcą Państwo wyłącznie cofnąć potwierdzenie, użyć Revert.
+</Warning>
+
+Jeśli brakuje oczekiwanego zamówienia, sprawdzić firmę, kraj przeznaczenia i filtry. Następnie postępować zgodnie z [Nie można znaleźć przesyłki](/pl/support/shipment-not-found).

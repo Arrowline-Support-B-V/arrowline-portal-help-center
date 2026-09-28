@@ -1,0 +1,51 @@
+---
+title: "Incoming Orders pentru paleți"
+sidebarTitle: "Incoming Orders pentru paleți"
+description: "Planificați comenzile Incoming de paleți, descărcați etichete și confirmați Ready To Ship."
+icon: "inbox"
+---
+
+Incoming Orders este ecranul de planificare pentru paleți. Are două liste:
+
+- **Incoming** — comenzi care nu au încă un status cel mai recent
+- **Ready to ship** — comenzi confirmate cu statusul **Ready To Ship**
+
+<Frame caption="Captură de ecran necesară — înlocuiți `/pallet/incoming-orders` cu ambele liste vizibile.">
+  <img src="/images/screenshot-placeholder.svg" alt="Substituent pentru ecranul Incoming Orders și Ready to ship" />
+</Frame>
+
+## Deschideți ecranul de planificare
+
+<Steps>
+  <Step title="Deschideți Paleți">Autentificați-vă și deschideți spațiul de lucru Paleți.</Step>
+  <Step title="Deschideți Incoming Orders">Consultați lista Incoming și lista Ready to ship.</Step>
+  <Step title="Selectați rândurile">Selectați una sau mai multe comenzi sau barcode-uri pe care trebuie să le procesați.</Step>
+  <Step title="Alegeți o acțiune">Descărcați etichete, folosiți Confirm, Revert sau Remove numai dacă este nevoie de o corecție.</Step>
+</Steps>
+
+Rândurile Incoming pot afișa creation date, order number, barcode, shipper și destination country. Vedeți doar comenzile companiei dumneavoastră și, pentru conturile de tip distributor, țările de destinație permise.
+
+## Confirmați Ready To Ship
+
+<Steps>
+  <Step title="Selectați rânduri Incoming">Alegeți comenzile sau barcode-urile care sunt gata.</Step>
+  <Step title="Confirmați expedierea">Folosiți Confirm. Portalul scrie **Ready To Ship** pentru fiecare barcode selectat.</Step>
+  <Step title="Verificați lista Ready to ship">Rândurile trec în lista Ready to ship.</Step>
+</Steps>
+
+## Etichete
+
+Puteți imprima sau descărca etichete de expediere pentru rândurile selectate. Portalul creează o etichetă PDF pentru fiecare palet selectat.
+
+Puteți genera o etichetă și din [Detalii pachet Paleți](/ro/pallets/package-detail).
+
+## Revert sau Remove
+
+- **Revert** trimite un rând Ready to ship înapoi la Incoming, prin eliminarea statusului Ready To Ship. Revert poate fi blocat după ce expedierea a fost comunicată transportatorului.
+- **Remove** șterge barcode-ul selectat din ecranul de planificare. Aceasta este o ștergere permanentă, nu o arhivare.
+
+<Warning>
+  Folosiți Remove doar când barcode-ul nu trebuie să rămână în portal. Dacă trebuie doar să anulați o confirmare, folosiți Revert.
+</Warning>
+
+Dacă o comandă așteptată lipsește, verificați compania, țara de destinație și filtrele. Apoi urmați [O expediere nu poate fi găsită](/ro/support/shipment-not-found).

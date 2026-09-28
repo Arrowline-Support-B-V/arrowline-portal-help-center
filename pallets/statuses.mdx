@@ -1,0 +1,39 @@
+---
+title: "Pallet statuses"
+sidebarTitle: "Pallet statuses"
+description: "Read pallet planning statuses and the mapped timeline on a package."
+icon: "list-check"
+---
+
+Pallet statuses come from the pallet status history. The portal maps those events into the names you see on the list and on the package timeline.
+
+Read the latest event on the [package page](/pallets/package-detail). That barcode timeline is the place to follow progress.
+
+<Frame caption="Screenshot required — replace a package timeline with several mapped statuses.">
+  <img src="/images/screenshot-placeholder.svg" alt="Placeholder for a pallet status timeline" />
+</Frame>
+
+## Planning statuses
+
+These statuses are used in the signed-in planning workflow:
+
+| Status | What it means in the portal |
+| --- | --- |
+| Incoming | The order has no latest status yet and appears on the incoming list |
+| Ready To Ship | You confirmed the shipment in Incoming Orders |
+| Shipment Communicated to Carrier | The shipment has been passed to the carrier. Revert can be blocked after this point |
+| Order Cancelled | The order is cancelled |
+
+## Movement and delivery names you may see
+
+Mapped names include **Picked Up**, **Arrival HUB**, **In Transit**, **Out for Delivery** and **Delivered**.
+
+Delivered can also appear as a more specific name, such as **Delivered, Partially Missing**, **Delivered on Appointment** or **Delivered, Partly Delivered**.
+
+Exception names can include damaged, refused, address closed, returned, on hold or missing-in-network events. Use the name shown on the timeline. Do not rename it.
+
+## Statuses are not support cases
+
+A pallet can show **Delivered** while a [claim](/pallets/claims) is still open. A planning status can look normal while a [ticket](/pallets/tickets) is being handled.
+
+If the latest event is missing or looks wrong, do not recreate the shipment. Follow [A shipment status is not updated](/support/status-not-updated) and include the order number and barcode.

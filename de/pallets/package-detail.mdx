@@ -1,0 +1,37 @@
+---
+title: "Paketdetails in Paletten"
+sidebarTitle: "Paketdetails in Paletten"
+description: "Prüfen Sie einen Palettenbarcode, seine Zeitachse, die voraussichtliche Lieferung und das Label."
+icon: "barcode"
+---
+
+Die Paketseite ist die Ansicht nach der Anmeldung für einen Barcode. Nutzen Sie sie, wenn die Auftragsseite nicht ausreicht.
+
+<Frame caption="Screenshot erforderlich — ersetzen Sie `/pallet/package-detail/[barcode]`. Blenden Sie den Barcode aus.">
+  <img src="/images/screenshot-placeholder.svg" alt="Platzhalter für das Paketdetail in Paletten" />
+</Frame>
+
+## Ein Paket öffnen
+
+- Von der [Auftragsseite](/de/pallets/shipment-detail) den Barcode wählen
+- Aus der [Sendungsliste](/de/pallets/shipments) die passende Barcode-Zeile öffnen
+- Über die [öffentliche Verfolgung](/de/pallets/public-tracking), wenn Sie nur den Fortschritt brauchen und keine Aktionen nach der Anmeldung
+
+## Was die Paketseite zeigen kann
+
+- Barcode und zugehöriger Auftrag
+- Sendungsangaben für dieses Paket
+- Status-Zeitachse für den Barcode
+- Voraussichtliche Lieferung, sofern verfügbar
+- Frachtführer und Volumen, sofern verfügbar
+- Statusbenachrichtigungen
+- Ein verknüpftes Ticket in Paletten, wenn eines zu Auftrag und Barcode passt
+- Ein Versandlabel als PDF
+
+Die Zeitachse nutzt die Statusereignisse, die für diesen Barcode gespeichert sind, sortiert nach Datum und Uhrzeit.
+
+<Info>
+  Auf dieser Seite können Sie Statusbenachrichtigungen ein- oder ausschalten, wenn diese Steuerung angezeigt wird.
+</Info>
+
+Wenn der Barcode fehlt oder außerhalb des Geltungsbereichs liegt, behandelt das Portal ihn als nicht gefunden. Geben Sie Auftragsnummer und Barcode an, wenn Sie Support kontaktieren.

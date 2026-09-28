@@ -1,0 +1,1053 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "Arrowline Portal Help Center",
+  "description": "Help and guidance for using the Arrowline Customer Portal for Parcels, Pallets and Truckloads.",
+  "theme": "mint",
+  "colors": {
+    "primary": "#F23F3F",
+    "light": "#F23F3F",
+    "dark": "#BF2E3F"
+  },
+  "favicon": "/favicon.svg",
+  "logo": {
+    "light": "/images/arrowline-logo-light.svg",
+    "dark": "/images/arrowline-logo-dark.svg",
+    "href": "https://arrowline.eu"
+  },
+  "appearance": {
+    "default": "light"
+  },
+  "fonts": {
+    "family": "Volksans",
+    "weight": 400,
+    "source": "https://framerusercontent.com/assets/bRrzMXX9sRLksR2EruXoaaP3aQ.woff2",
+    "format": "woff2",
+    "heading": {
+      "family": "Volksans",
+      "weight": 600,
+      "source": "https://framerusercontent.com/assets/dpkPakdpNG01EjYRw4kiZ5lAu6M.woff2",
+      "format": "woff2"
+    },
+    "body": {
+      "family": "Volksans",
+      "weight": 400,
+      "source": "https://framerusercontent.com/assets/bRrzMXX9sRLksR2EruXoaaP3aQ.woff2",
+      "format": "woff2"
+    }
+  },
+  "background": {
+    "color": {
+      "light": "#FFF4ED",
+      "dark": "#28302D"
+    }
+  },
+  "navigation": {
+    "languages": [
+      {
+        "language": "en",
+        "default": true,
+        "tabs": [
+          {
+            "tab": "Start here",
+            "groups": [
+              {
+                "group": "Welcome",
+                "pages": [
+                  "index",
+                  "start/choose-your-workflow",
+                  "start/sign-in",
+                  "start/password-reset",
+                  "start/dashboard",
+                  "start/account"
+                ]
+              },
+              {
+                "group": "Portal basics",
+                "pages": [
+                  "portal/searching",
+                  "portal/shipment-details",
+                  "portal/statuses",
+                  "portal/filters-and-exports"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Parcels",
+            "groups": [
+              {
+                "group": "Manage parcels",
+                "pages": [
+                  "parcels/overview",
+                  "parcels/shipments",
+                  "parcels/shipment-detail",
+                  "parcels/tracking",
+                  "parcels/returns",
+                  "parcels/performance"
+                ]
+              },
+              {
+                "group": "Problems and support",
+                "pages": [
+                  "parcels/statuses",
+                  "parcels/delivery-exceptions",
+                  "parcels/claims",
+                  "parcels/tickets"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Pallets",
+            "groups": [
+              {
+                "group": "Manage pallets",
+                "pages": [
+                  "pallets/overview",
+                  "pallets/public-tracking",
+                  "pallets/incoming-orders",
+                  "pallets/shipments",
+                  "pallets/shipment-detail",
+                  "pallets/package-detail"
+                ]
+              },
+              {
+                "group": "Problems and support",
+                "pages": [
+                  "pallets/statuses",
+                  "pallets/proof-of-delivery",
+                  "pallets/claims",
+                  "pallets/tickets"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Truckloads",
+            "groups": [
+              {
+                "group": "Manage truckloads",
+                "pages": [
+                  "truckloads/overview",
+                  "truckloads/shipments",
+                  "truckloads/shipment-detail"
+                ]
+              },
+              {
+                "group": "Status and performance",
+                "pages": [
+                  "truckloads/statuses",
+                  "truckloads/performance"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Support",
+            "groups": [
+              {
+                "group": "Get help",
+                "pages": [
+                  "support/contact",
+                  "support/create-ticket",
+                  "support/track-ticket",
+                  "support/required-information"
+                ]
+              },
+              {
+                "group": "Troubleshooting",
+                "pages": [
+                  "support/cannot-sign-in",
+                  "support/shipment-not-found",
+                  "support/status-not-updated",
+                  "support/portal-errors"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "language": "nl",
+        "tabs": [
+          {
+            "tab": "Begin hier",
+            "groups": [
+              {
+                "group": "Welkom",
+                "pages": [
+                  "nl/index",
+                  "nl/start/choose-your-workflow",
+                  "nl/start/sign-in",
+                  "nl/start/password-reset",
+                  "nl/start/dashboard",
+                  "nl/start/account"
+                ]
+              },
+              {
+                "group": "Portaalbasis",
+                "pages": [
+                  "nl/portal/searching",
+                  "nl/portal/shipment-details",
+                  "nl/portal/statuses",
+                  "nl/portal/filters-and-exports"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Pakketten",
+            "groups": [
+              {
+                "group": "Pakketten beheren",
+                "pages": [
+                  "nl/parcels/overview",
+                  "nl/parcels/shipments",
+                  "nl/parcels/shipment-detail",
+                  "nl/parcels/tracking",
+                  "nl/parcels/returns",
+                  "nl/parcels/performance"
+                ]
+              },
+              {
+                "group": "Problemen en support",
+                "pages": [
+                  "nl/parcels/statuses",
+                  "nl/parcels/delivery-exceptions",
+                  "nl/parcels/claims",
+                  "nl/parcels/tickets"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Paletten",
+            "groups": [
+              {
+                "group": "Paletten beheren",
+                "pages": [
+                  "nl/pallets/overview",
+                  "nl/pallets/public-tracking",
+                  "nl/pallets/incoming-orders",
+                  "nl/pallets/shipments",
+                  "nl/pallets/shipment-detail",
+                  "nl/pallets/package-detail"
+                ]
+              },
+              {
+                "group": "Problemen en support",
+                "pages": [
+                  "nl/pallets/statuses",
+                  "nl/pallets/proof-of-delivery",
+                  "nl/pallets/claims",
+                  "nl/pallets/tickets"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Complete ladingen",
+            "groups": [
+              {
+                "group": "Complete ladingen beheren",
+                "pages": [
+                  "nl/truckloads/overview",
+                  "nl/truckloads/shipments",
+                  "nl/truckloads/shipment-detail"
+                ]
+              },
+              {
+                "group": "Status en prestaties",
+                "pages": [
+                  "nl/truckloads/statuses",
+                  "nl/truckloads/performance"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Hulp",
+            "groups": [
+              {
+                "group": "Hulp vragen",
+                "pages": [
+                  "nl/support/contact",
+                  "nl/support/create-ticket",
+                  "nl/support/track-ticket",
+                  "nl/support/required-information"
+                ]
+              },
+              {
+                "group": "Problemen oplossen",
+                "pages": [
+                  "nl/support/cannot-sign-in",
+                  "nl/support/shipment-not-found",
+                  "nl/support/status-not-updated",
+                  "nl/support/portal-errors"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "language": "ro",
+        "tabs": [
+          {
+            "tab": "Începeți aici",
+            "groups": [
+              {
+                "group": "Bun venit",
+                "pages": [
+                  "ro/index",
+                  "ro/start/choose-your-workflow",
+                  "ro/start/sign-in",
+                  "ro/start/password-reset",
+                  "ro/start/dashboard",
+                  "ro/start/account"
+                ]
+              },
+              {
+                "group": "Bazele portalului",
+                "pages": [
+                  "ro/portal/searching",
+                  "ro/portal/shipment-details",
+                  "ro/portal/statuses",
+                  "ro/portal/filters-and-exports"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Colete",
+            "groups": [
+              {
+                "group": "Gestionare Colete",
+                "pages": [
+                  "ro/parcels/overview",
+                  "ro/parcels/shipments",
+                  "ro/parcels/shipment-detail",
+                  "ro/parcels/tracking",
+                  "ro/parcels/returns",
+                  "ro/parcels/performance"
+                ]
+              },
+              {
+                "group": "Probleme și suport",
+                "pages": [
+                  "ro/parcels/statuses",
+                  "ro/parcels/delivery-exceptions",
+                  "ro/parcels/claims",
+                  "ro/parcels/tickets"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Paleți",
+            "groups": [
+              {
+                "group": "Gestionare Paleți",
+                "pages": [
+                  "ro/pallets/overview",
+                  "ro/pallets/public-tracking",
+                  "ro/pallets/incoming-orders",
+                  "ro/pallets/shipments",
+                  "ro/pallets/shipment-detail",
+                  "ro/pallets/package-detail"
+                ]
+              },
+              {
+                "group": "Probleme și suport",
+                "pages": [
+                  "ro/pallets/statuses",
+                  "ro/pallets/proof-of-delivery",
+                  "ro/pallets/claims",
+                  "ro/pallets/tickets"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Transporturi complete",
+            "groups": [
+              {
+                "group": "Gestionare Transporturi complete",
+                "pages": [
+                  "ro/truckloads/overview",
+                  "ro/truckloads/shipments",
+                  "ro/truckloads/shipment-detail"
+                ]
+              },
+              {
+                "group": "Status și performanță",
+                "pages": [
+                  "ro/truckloads/statuses",
+                  "ro/truckloads/performance"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Asistență",
+            "groups": [
+              {
+                "group": "Cereți ajutor",
+                "pages": [
+                  "ro/support/contact",
+                  "ro/support/create-ticket",
+                  "ro/support/track-ticket",
+                  "ro/support/required-information"
+                ]
+              },
+              {
+                "group": "Depanare",
+                "pages": [
+                  "ro/support/cannot-sign-in",
+                  "ro/support/shipment-not-found",
+                  "ro/support/status-not-updated",
+                  "ro/support/portal-errors"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "language": "pl",
+        "tabs": [
+          {
+            "tab": "Zacznij tutaj",
+            "groups": [
+              {
+                "group": "Witamy",
+                "pages": [
+                  "pl/index",
+                  "pl/start/choose-your-workflow",
+                  "pl/start/sign-in",
+                  "pl/start/password-reset",
+                  "pl/start/dashboard",
+                  "pl/start/account"
+                ]
+              },
+              {
+                "group": "Podstawy portalu",
+                "pages": [
+                  "pl/portal/searching",
+                  "pl/portal/shipment-details",
+                  "pl/portal/statuses",
+                  "pl/portal/filters-and-exports"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Paczki",
+            "groups": [
+              {
+                "group": "Zarządzanie Paczki",
+                "pages": [
+                  "pl/parcels/overview",
+                  "pl/parcels/shipments",
+                  "pl/parcels/shipment-detail",
+                  "pl/parcels/tracking",
+                  "pl/parcels/returns",
+                  "pl/parcels/performance"
+                ]
+              },
+              {
+                "group": "Problemy i wsparcie",
+                "pages": [
+                  "pl/parcels/statuses",
+                  "pl/parcels/delivery-exceptions",
+                  "pl/parcels/claims",
+                  "pl/parcels/tickets"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Palety",
+            "groups": [
+              {
+                "group": "Zarządzanie Palety",
+                "pages": [
+                  "pl/pallets/overview",
+                  "pl/pallets/public-tracking",
+                  "pl/pallets/incoming-orders",
+                  "pl/pallets/shipments",
+                  "pl/pallets/shipment-detail",
+                  "pl/pallets/package-detail"
+                ]
+              },
+              {
+                "group": "Problemy i wsparcie",
+                "pages": [
+                  "pl/pallets/statuses",
+                  "pl/pallets/proof-of-delivery",
+                  "pl/pallets/claims",
+                  "pl/pallets/tickets"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Ładunki kompletne",
+            "groups": [
+              {
+                "group": "Zarządzanie Ładunki kompletne",
+                "pages": [
+                  "pl/truckloads/overview",
+                  "pl/truckloads/shipments",
+                  "pl/truckloads/shipment-detail"
+                ]
+              },
+              {
+                "group": "Status i wyniki",
+                "pages": [
+                  "pl/truckloads/statuses",
+                  "pl/truckloads/performance"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Wsparcie",
+            "groups": [
+              {
+                "group": "Uzyskaj pomoc",
+                "pages": [
+                  "pl/support/contact",
+                  "pl/support/create-ticket",
+                  "pl/support/track-ticket",
+                  "pl/support/required-information"
+                ]
+              },
+              {
+                "group": "Rozwiązywanie problemów",
+                "pages": [
+                  "pl/support/cannot-sign-in",
+                  "pl/support/shipment-not-found",
+                  "pl/support/status-not-updated",
+                  "pl/support/portal-errors"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "language": "es",
+        "tabs": [
+          {
+            "tab": "Empiece aquí",
+            "groups": [
+              {
+                "group": "Bienvenida",
+                "pages": [
+                  "es/index",
+                  "es/start/choose-your-workflow",
+                  "es/start/sign-in",
+                  "es/start/password-reset",
+                  "es/start/dashboard",
+                  "es/start/account"
+                ]
+              },
+              {
+                "group": "Conceptos básicos del portal",
+                "pages": [
+                  "es/portal/searching",
+                  "es/portal/shipment-details",
+                  "es/portal/statuses",
+                  "es/portal/filters-and-exports"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Paquetes",
+            "groups": [
+              {
+                "group": "Gestionar Paquetes",
+                "pages": [
+                  "es/parcels/overview",
+                  "es/parcels/shipments",
+                  "es/parcels/shipment-detail",
+                  "es/parcels/tracking",
+                  "es/parcels/returns",
+                  "es/parcels/performance"
+                ]
+              },
+              {
+                "group": "Problemas y soporte",
+                "pages": [
+                  "es/parcels/statuses",
+                  "es/parcels/delivery-exceptions",
+                  "es/parcels/claims",
+                  "es/parcels/tickets"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Palets",
+            "groups": [
+              {
+                "group": "Gestionar Palets",
+                "pages": [
+                  "es/pallets/overview",
+                  "es/pallets/public-tracking",
+                  "es/pallets/incoming-orders",
+                  "es/pallets/shipments",
+                  "es/pallets/shipment-detail",
+                  "es/pallets/package-detail"
+                ]
+              },
+              {
+                "group": "Problemas y soporte",
+                "pages": [
+                  "es/pallets/statuses",
+                  "es/pallets/proof-of-delivery",
+                  "es/pallets/claims",
+                  "es/pallets/tickets"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Cargas completas",
+            "groups": [
+              {
+                "group": "Gestionar Cargas completas",
+                "pages": [
+                  "es/truckloads/overview",
+                  "es/truckloads/shipments",
+                  "es/truckloads/shipment-detail"
+                ]
+              },
+              {
+                "group": "Estado y rendimiento",
+                "pages": [
+                  "es/truckloads/statuses",
+                  "es/truckloads/performance"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Ayuda",
+            "groups": [
+              {
+                "group": "Pedir ayuda",
+                "pages": [
+                  "es/support/contact",
+                  "es/support/create-ticket",
+                  "es/support/track-ticket",
+                  "es/support/required-information"
+                ]
+              },
+              {
+                "group": "Resolución de problemas",
+                "pages": [
+                  "es/support/cannot-sign-in",
+                  "es/support/shipment-not-found",
+                  "es/support/status-not-updated",
+                  "es/support/portal-errors"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "language": "fr",
+        "tabs": [
+          {
+            "tab": "Commencez ici",
+            "groups": [
+              {
+                "group": "Bienvenue",
+                "pages": [
+                  "fr/index",
+                  "fr/start/choose-your-workflow",
+                  "fr/start/sign-in",
+                  "fr/start/password-reset",
+                  "fr/start/dashboard",
+                  "fr/start/account"
+                ]
+              },
+              {
+                "group": "Bases du portail",
+                "pages": [
+                  "fr/portal/searching",
+                  "fr/portal/shipment-details",
+                  "fr/portal/statuses",
+                  "fr/portal/filters-and-exports"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Colis",
+            "groups": [
+              {
+                "group": "Gérer Colis",
+                "pages": [
+                  "fr/parcels/overview",
+                  "fr/parcels/shipments",
+                  "fr/parcels/shipment-detail",
+                  "fr/parcels/tracking",
+                  "fr/parcels/returns",
+                  "fr/parcels/performance"
+                ]
+              },
+              {
+                "group": "Problèmes et support",
+                "pages": [
+                  "fr/parcels/statuses",
+                  "fr/parcels/delivery-exceptions",
+                  "fr/parcels/claims",
+                  "fr/parcels/tickets"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Palettes",
+            "groups": [
+              {
+                "group": "Gérer Palettes",
+                "pages": [
+                  "fr/pallets/overview",
+                  "fr/pallets/public-tracking",
+                  "fr/pallets/incoming-orders",
+                  "fr/pallets/shipments",
+                  "fr/pallets/shipment-detail",
+                  "fr/pallets/package-detail"
+                ]
+              },
+              {
+                "group": "Problèmes et support",
+                "pages": [
+                  "fr/pallets/statuses",
+                  "fr/pallets/proof-of-delivery",
+                  "fr/pallets/claims",
+                  "fr/pallets/tickets"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Chargements complets",
+            "groups": [
+              {
+                "group": "Gérer Chargements complets",
+                "pages": [
+                  "fr/truckloads/overview",
+                  "fr/truckloads/shipments",
+                  "fr/truckloads/shipment-detail"
+                ]
+              },
+              {
+                "group": "Statut et performance",
+                "pages": [
+                  "fr/truckloads/statuses",
+                  "fr/truckloads/performance"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Assistance",
+            "groups": [
+              {
+                "group": "Demander de l'aide",
+                "pages": [
+                  "fr/support/contact",
+                  "fr/support/create-ticket",
+                  "fr/support/track-ticket",
+                  "fr/support/required-information"
+                ]
+              },
+              {
+                "group": "Dépannage",
+                "pages": [
+                  "fr/support/cannot-sign-in",
+                  "fr/support/shipment-not-found",
+                  "fr/support/status-not-updated",
+                  "fr/support/portal-errors"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "language": "pt",
+        "tabs": [
+          {
+            "tab": "Comece aqui",
+            "groups": [
+              {
+                "group": "Bem-vindo",
+                "pages": [
+                  "pt/index",
+                  "pt/start/choose-your-workflow",
+                  "pt/start/sign-in",
+                  "pt/start/password-reset",
+                  "pt/start/dashboard",
+                  "pt/start/account"
+                ]
+              },
+              {
+                "group": "Bases do portal",
+                "pages": [
+                  "pt/portal/searching",
+                  "pt/portal/shipment-details",
+                  "pt/portal/statuses",
+                  "pt/portal/filters-and-exports"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Encomendas",
+            "groups": [
+              {
+                "group": "Gerir Encomendas",
+                "pages": [
+                  "pt/parcels/overview",
+                  "pt/parcels/shipments",
+                  "pt/parcels/shipment-detail",
+                  "pt/parcels/tracking",
+                  "pt/parcels/returns",
+                  "pt/parcels/performance"
+                ]
+              },
+              {
+                "group": "Problemas e suporte",
+                "pages": [
+                  "pt/parcels/statuses",
+                  "pt/parcels/delivery-exceptions",
+                  "pt/parcels/claims",
+                  "pt/parcels/tickets"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Paletes",
+            "groups": [
+              {
+                "group": "Gerir Paletes",
+                "pages": [
+                  "pt/pallets/overview",
+                  "pt/pallets/public-tracking",
+                  "pt/pallets/incoming-orders",
+                  "pt/pallets/shipments",
+                  "pt/pallets/shipment-detail",
+                  "pt/pallets/package-detail"
+                ]
+              },
+              {
+                "group": "Problemas e suporte",
+                "pages": [
+                  "pt/pallets/statuses",
+                  "pt/pallets/proof-of-delivery",
+                  "pt/pallets/claims",
+                  "pt/pallets/tickets"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Cargas completas",
+            "groups": [
+              {
+                "group": "Gerir Cargas completas",
+                "pages": [
+                  "pt/truckloads/overview",
+                  "pt/truckloads/shipments",
+                  "pt/truckloads/shipment-detail"
+                ]
+              },
+              {
+                "group": "Estado e desempenho",
+                "pages": [
+                  "pt/truckloads/statuses",
+                  "pt/truckloads/performance"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Apoio",
+            "groups": [
+              {
+                "group": "Pedir ajuda",
+                "pages": [
+                  "pt/support/contact",
+                  "pt/support/create-ticket",
+                  "pt/support/track-ticket",
+                  "pt/support/required-information"
+                ]
+              },
+              {
+                "group": "Resolução de problemas",
+                "pages": [
+                  "pt/support/cannot-sign-in",
+                  "pt/support/shipment-not-found",
+                  "pt/support/status-not-updated",
+                  "pt/support/portal-errors"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "language": "de",
+        "tabs": [
+          {
+            "tab": "Hier beginnen",
+            "groups": [
+              {
+                "group": "Willkommen",
+                "pages": [
+                  "de/index",
+                  "de/start/choose-your-workflow",
+                  "de/start/sign-in",
+                  "de/start/password-reset",
+                  "de/start/dashboard",
+                  "de/start/account"
+                ]
+              },
+              {
+                "group": "Portalgrundlagen",
+                "pages": [
+                  "de/portal/searching",
+                  "de/portal/shipment-details",
+                  "de/portal/statuses",
+                  "de/portal/filters-and-exports"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Pakete",
+            "groups": [
+              {
+                "group": "Pakete verwalten",
+                "pages": [
+                  "de/parcels/overview",
+                  "de/parcels/shipments",
+                  "de/parcels/shipment-detail",
+                  "de/parcels/tracking",
+                  "de/parcels/returns",
+                  "de/parcels/performance"
+                ]
+              },
+              {
+                "group": "Probleme und Support",
+                "pages": [
+                  "de/parcels/statuses",
+                  "de/parcels/delivery-exceptions",
+                  "de/parcels/claims",
+                  "de/parcels/tickets"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Paletten",
+            "groups": [
+              {
+                "group": "Paletten verwalten",
+                "pages": [
+                  "de/pallets/overview",
+                  "de/pallets/public-tracking",
+                  "de/pallets/incoming-orders",
+                  "de/pallets/shipments",
+                  "de/pallets/shipment-detail",
+                  "de/pallets/package-detail"
+                ]
+              },
+              {
+                "group": "Probleme und Support",
+                "pages": [
+                  "de/pallets/statuses",
+                  "de/pallets/proof-of-delivery",
+                  "de/pallets/claims",
+                  "de/pallets/tickets"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Komplettladungen",
+            "groups": [
+              {
+                "group": "Komplettladungen verwalten",
+                "pages": [
+                  "de/truckloads/overview",
+                  "de/truckloads/shipments",
+                  "de/truckloads/shipment-detail"
+                ]
+              },
+              {
+                "group": "Status und Leistung",
+                "pages": [
+                  "de/truckloads/statuses",
+                  "de/truckloads/performance"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Hilfe",
+            "groups": [
+              {
+                "group": "Hilfe anfordern",
+                "pages": [
+                  "de/support/contact",
+                  "de/support/create-ticket",
+                  "de/support/track-ticket",
+                  "de/support/required-information"
+                ]
+              },
+              {
+                "group": "Fehlerbehebung",
+                "pages": [
+                  "de/support/cannot-sign-in",
+                  "de/support/shipment-not-found",
+                  "de/support/status-not-updated",
+                  "de/support/portal-errors"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "socials": {}
+  },
+  "seo": {
+    "indexing": "all"
+  },
+  "redirects": [
+    {
+      "source": "/en",
+      "destination": "/"
+    },
+    {
+      "source": "/en/index",
+      "destination": "/"
+    },
+    {
+      "source": "/en/:slug*",
+      "destination": "/:slug*"
+    }
+  ]
+}

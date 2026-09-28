@@ -1,0 +1,39 @@
+---
+title: "Statuts Palettes"
+sidebarTitle: "Statuts Palettes"
+description: "Lisez les statuts de planification des palettes et la chronologie convertie sur un colis."
+icon: "list-check"
+---
+
+Les statuts Palettes proviennent de l'historique des statuts palette. Le portail convertit ces événements en noms que vous voyez sur la liste et sur la chronologie du colis.
+
+Lisez le dernier événement sur la [page colis](/fr/pallets/package-detail). Cette chronologie du code-barres est l'endroit pour suivre l'avancement.
+
+<Frame caption="Capture d'écran requise — remplacez une chronologie de colis avec plusieurs statuts convertis.">
+  <img src="/images/screenshot-placeholder.svg" alt="Espace réservé pour une chronologie de statuts Palettes" />
+</Frame>
+
+## Statuts de planification
+
+Ces statuts sont utilisés dans le flux de planification une fois connecté :
+
+| Statut | Ce que cela signifie dans le portail |
+| --- | --- |
+| Incoming | La commande n'a pas encore de dernier statut et apparaît sur la liste Incoming |
+| Ready To Ship | Vous avez confirmé l'expédition dans Incoming Orders |
+| Shipment Communicated to Carrier | L'expédition a été transmise au transporteur. Revert peut être bloqué après ce point |
+| Order Cancelled | La commande est annulée |
+
+## Noms de mouvement et de livraison que vous pouvez voir
+
+Les noms convertis incluent **Picked Up**, **Arrival HUB**, **In Transit**, **Out for Delivery** et **Delivered**.
+
+Delivered peut aussi apparaître sous un nom plus précis, comme **Delivered, Partially Missing**, **Delivered on Appointment** ou **Delivered, Partly Delivered**.
+
+Les noms d'exception peuvent inclure des événements damaged, refused, address closed, returned, on hold ou missing-in-network. Utilisez le nom affiché sur la chronologie. Ne le renommez pas.
+
+## Les statuts ne sont pas des dossiers de support
+
+Une palette peut afficher **Delivered** alors qu'une [réclamation](/fr/pallets/claims) est encore ouverte. Un statut de planification peut sembler normal alors qu'un [ticket](/fr/pallets/tickets) est en cours de traitement.
+
+Si le dernier événement manque ou semble incorrect, ne recréez pas l'expédition. Suivez [Le statut d'une expédition n'est pas mis à jour](/fr/support/status-not-updated) et indiquez le numéro de commande et le code-barres.

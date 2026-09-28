@@ -1,0 +1,51 @@
+---
+title: "Pedidos Incoming de Palets"
+sidebarTitle: "Pedidos Incoming de Palets"
+description: "Planifique los pedidos incoming de Palets, descargue etiquetas y confirme Ready To Ship."
+icon: "inbox"
+---
+
+Incoming Orders es la mesa de trabajo de planificación de palets. Tiene dos listas:
+
+- **Incoming** — pedidos que aún no tienen un último estado
+- **Ready to ship** — pedidos confirmados con el estado **Ready To Ship**
+
+<Frame caption="Captura de pantalla necesaria — sustituya `/pallet/incoming-orders` con ambas listas visibles.">
+  <img src="/images/screenshot-placeholder.svg" alt="Marcador de posición para la mesa de trabajo Incoming y Ready to ship" />
+</Frame>
+
+## Abra la mesa de trabajo
+
+<Steps>
+  <Step title="Abra Palets">Inicie sesión y abra el espacio de trabajo de Palets.</Step>
+  <Step title="Abra Incoming Orders">Revise la lista Incoming y la lista Ready to ship.</Step>
+  <Step title="Seleccione las filas">Seleccione uno o más pedidos o códigos de barras que necesite procesar.</Step>
+  <Step title="Elija una acción">Descargue etiquetas, use Confirm, Revert o Remove solo si se requiere una corrección.</Step>
+</Steps>
+
+Las filas de Incoming pueden mostrar fecha de creación, número de pedido, código de barras, remitente y país de destino. Solo ve los pedidos de su empresa y, para las cuentas de distribuidor, los países de destino permitidos.
+
+## Confirme Ready To Ship
+
+<Steps>
+  <Step title="Seleccione filas de Incoming">Elija los pedidos o códigos de barras que están listos.</Step>
+  <Step title="Confirme el envío con Confirm">El portal escribe **Ready To Ship** para cada código de barras seleccionado.</Step>
+  <Step title="Compruebe la lista Ready to ship">Las filas pasan a la lista Ready to ship.</Step>
+</Steps>
+
+## Etiquetas
+
+Puede imprimir o descargar etiquetas de envío de las filas seleccionadas. El portal crea una etiqueta PDF para cada palet seleccionado.
+
+También puede generar una etiqueta desde [Detalles del paquete de Palets](/es/pallets/package-detail).
+
+## Revert o Remove
+
+- **Revert** envía una fila de Ready to ship de vuelta a Incoming al quitar el estado Ready To Ship. Revert puede quedar bloqueado después de que el envío se haya comunicado al transportista.
+- **Remove** elimina el código de barras seleccionado de la mesa de trabajo. Es una eliminación permanente, no un archivo.
+
+<Warning>
+  Use Remove solo cuando el código de barras no deba permanecer en el portal. Si solo necesita deshacer una confirmación, use Revert.
+</Warning>
+
+Si falta un pedido esperado, compruebe la empresa, el país de destino y los filtros. Después siga [No se encuentra un envío](/es/support/shipment-not-found).

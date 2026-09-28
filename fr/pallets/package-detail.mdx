@@ -1,0 +1,37 @@
+---
+title: "Détails d'un colis Palettes"
+sidebarTitle: "Détails d'un colis Palettes"
+description: "Consultez un code-barres palette, sa chronologie, la livraison prévue et l'étiquette."
+icon: "barcode"
+---
+
+La page colis est la vue, une fois connecté, d'un seul code-barres. Utilisez-la lorsque la page commande ne suffit pas.
+
+<Frame caption="Capture d'écran requise — remplacez `/pallet/package-detail/[barcode]`. Masquez le code-barres.">
+  <img src="/images/screenshot-placeholder.svg" alt="Espace réservé pour le détail d'un colis Palettes" />
+</Frame>
+
+## Ouvrir un colis
+
+- Depuis la [page commande](/fr/pallets/shipment-detail), sélectionnez le code-barres
+- Depuis la [liste des expéditions](/fr/pallets/shipments), ouvrez la ligne du code-barres correspondant
+- Depuis le [suivi public](/fr/pallets/public-tracking), si vous avez seulement besoin de l'avancement et pas des actions une fois connecté
+
+## Ce que la page colis peut afficher
+
+- Code-barres et commande associée
+- Informations d'expédition pour ce colis
+- Chronologie des statuts pour le code-barres
+- Livraison prévue, lorsqu'elle est disponible
+- Transporteur et volume, lorsqu'ils sont disponibles
+- Notifications de statut
+- Un ticket Palettes lié, lorsqu'il correspond à la commande et au code-barres
+- Un PDF d'étiquette d'expédition
+
+La chronologie utilise les événements de statut enregistrés pour ce code-barres, classés par date et heure.
+
+<Info>
+  Vous pouvez activer ou désactiver les notifications de statut depuis cette page lorsque ce contrôle est affiché.
+</Info>
+
+Si le code-barres manque ou est hors périmètre, le portail le traite comme introuvable. Indiquez à la fois le numéro de commande et le code-barres lorsque vous contactez Support.

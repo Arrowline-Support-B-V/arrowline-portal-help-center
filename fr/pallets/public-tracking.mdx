@@ -1,0 +1,59 @@
+---
+title: "Suivre une palette sans se connecter"
+sidebarTitle: "Suivre une palette sans se connecter"
+description: "Suivez une palette par numéro de commande ou numéro de suivi sur la page de suivi public."
+icon: "location-dot"
+---
+
+Le suivi public des palettes ne nécessite pas de compte portail. Utilisez-le lorsque vous avez un numéro de commande ou un numéro de suivi et que vous avez seulement besoin de voir l'avancement.
+
+Cette page est uniquement pour **Palettes**. Elle ne trouvera pas un colis.
+
+<Frame caption="Capture d'écran requise — remplacez `/track`. N'affichez pas un vrai identifiant.">
+  <img src="/images/screenshot-placeholder.svg" alt="Espace réservé pour la recherche de suivi public des palettes" />
+</Frame>
+
+## Rechercher une palette
+
+<Steps>
+  <Step title="Ouvrez le suivi public">Allez à la page de suivi public des palettes.</Step>
+  <Step title="Choisissez le type de recherche">Sélectionnez **Order Number** ou **Tracking Number**.</Step>
+  <Step title="Saisissez l'identifiant complet">Tapez la valeur entière. Ne la raccourcissez pas.</Step>
+  <Step title="Recherchez">Attendez le résultat. Une correspondance ouvre le détail du suivi. Sans correspondance, un message indique qu'aucun résultat n'a été trouvé.</Step>
+</Steps>
+
+Si vous recherchez par numéro de commande et que la commande a plus d'un code-barres, le portail ouvre le premier code-barres correspondant. Changez de code-barres sur la page de détail.
+
+Un lien de suivi partagé qui ne contient qu'un seul identifiant est résolu automatiquement. S'il ne peut pas être associé, le portail revient à la page de recherche avec un message indiquant qu'aucun résultat n'a été trouvé.
+
+## Lire le détail du suivi
+
+La page de détail public peut afficher :
+
+- Numéro de commande et code-barres
+- Destination
+- Poids
+- Transporteur
+- Livraison prévue, lorsqu'elle est disponible
+- La chronologie des statuts convertis
+
+<Frame caption="Capture d'écran requise — remplacez `/track/[orderNumber]/[barcode]`. Masquez les données de destination.">
+  <img src="/images/screenshot-placeholder.svg" alt="Espace réservé pour le détail du suivi public des palettes" />
+</Frame>
+
+Si la commande a plusieurs codes-barres, utilisez le sélecteur de code-barres pour ouvrir un autre colis de la même commande. La page se rafraîchit environ toutes les 30 secondes tant qu'elle reste ouverte.
+
+<Info>
+  La livraison prévue n'est affichée que lorsque le portail a cette information pour le code-barres. Si elle manque, le reste du détail de suivi peut tout de même être correct.
+</Info>
+
+## Lorsque vous avez besoin de l'espace de travail connecté
+
+Connectez-vous et utilisez l'espace de travail Palettes lorsque vous devez :
+
+- Planifier ou confirmer les [incoming orders](/fr/pallets/incoming-orders)
+- Télécharger une étiquette d'expédition
+- Ouvrir une [réclamation](/fr/pallets/claims) ou un [ticket](/fr/pallets/tickets) Palettes
+- Consulter la [liste des expéditions](/fr/pallets/shipments) une fois connecté
+
+Voir [Palettes dans le portail](/fr/pallets/overview) et [Une expédition est introuvable](/fr/support/shipment-not-found).

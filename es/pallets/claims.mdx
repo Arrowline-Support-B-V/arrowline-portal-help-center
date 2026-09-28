@@ -1,0 +1,55 @@
+---
+title: "Reclamaciones de Palets"
+sidebarTitle: "Reclamaciones de Palets"
+description: "Revise, cree y siga una reclamación formal de Palets."
+icon: "file-circle-exclamation"
+---
+
+Use una reclamación de Palets para un incidente formal como daño, faltante o pérdida. Una reclamación es independiente del estado de seguimiento e independiente de un ticket de soporte.
+
+<Frame caption="Captura de pantalla necesaria — sustituya `/pallet/claims` con filtros y la acción de crear reclamación.">
+  <img src="/images/screenshot-placeholder.svg" alt="Marcador de posición para la lista de reclamaciones de Palets" />
+</Frame>
+
+## Revise las reclamaciones existentes
+
+La lista de reclamaciones de Palets no es la lista de reclamaciones de Paquetes. Muestra los casos de palets de su empresa.
+
+Puede:
+
+- Filtrar por fecha, estado o empresa
+- Exportar la lista filtrada
+- Abrir el resultado de una reclamación
+- Activar o desactivar las notificaciones de reclamación
+- Iniciar una reclamación nueva
+
+Cada fila puede mostrar un identificador de reclamación, el pedido o el código de barras vinculado cuando está almacenado, el tipo, el estado y las fechas. Si falta una referencia, trátela como no disponible.
+
+## Cree una reclamación
+
+<Steps>
+  <Step title="Abra las reclamaciones de Palets">Desde el espacio de trabajo de Palets, abra Claims e inicie una reclamación nueva.</Step>
+  <Step title="Introduzca el envío">Añada el número de pedido y cada código de barras. Elija el transportista y la naturaleza de la reclamación. La lista de transportistas incluye Van Duuren, Geodis y CTS.</Step>
+  <Step title="Añada los artículos">Por cada artículo, introduzca el nombre, la cantidad, el precio y una descripción del problema.</Step>
+  <Step title="Adjunte los archivos obligatorios">Añada la factura. Añada fotos salvo que la naturaleza de la reclamación sea lost.</Step>
+  <Step title="Compruebe el total">El portal multiplica cantidad × precio de cada artículo para mostrar el valor de la reclamación.</Step>
+  <Step title="Envíe una sola vez">Espere la página de resultado de la reclamación. No envíe la misma reclamación otra vez.</Step>
+</Steps>
+
+<Frame caption="Captura de pantalla necesaria — sustituya `/pallet/claims/add`. No muestre facturas ni fotos reales.">
+  <img src="/images/screenshot-placeholder.svg" alt="Marcador de posición para el formulario de crear reclamación de Palets" />
+</Frame>
+
+El formulario no se enviará hasta que los campos obligatorios estén completos.
+
+## Después de enviar
+
+La página de resultado de la reclamación muestra el estado del caso, el progreso, el pedido, el código de barras y el transportista vinculados cuando están disponibles, los comentarios y los adjuntos, y un control de notificaciones.
+
+<Frame caption="Captura de pantalla necesaria — sustituya `/pallet/claims/result/[id]`. Enmascare importes y datos personales.">
+  <img src="/images/screenshot-placeholder.svg" alt="Marcador de posición para el resultado de una reclamación de Palets" />
+</Frame>
+
+<Warning>
+  No cree una segunda reclamación de Palets para los mismos códigos de barras salvo que Support se lo pida. Un estado de seguimiento Delivered puede tener aún una reclamación abierta.
+</Warning>

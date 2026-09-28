@@ -1,0 +1,39 @@
+---
+title: "Status in Pakete"
+sidebarTitle: "Status in Pakete"
+description: "Lesen Sie die gruppierten Status von Pakete auf dem Dashboard und in der Sendungsliste."
+icon: "list-check"
+---
+
+Das Portal gruppiert rohe Frachtführer-Ereignisse in operative Kategorien auf dem Dashboard von Pakete und in der Sendungsliste. Die Kategorien, mit denen Sie rechnen können, sind:
+
+- In transit
+- Exceptions
+- Delivered
+
+Die Bezeichnung in einer Zeile ist dieser gruppierte Status, nicht jeder zugrunde liegende Scanname.
+
+<Frame caption="Screenshot erforderlich — ersetzen Sie die Statussummen von `/parcel` oder `/shipments`. Blenden Sie Kundendaten aus.">
+  <img src="/images/screenshot-placeholder.svg" alt="Platzhalter für Statuskategorien in Pakete" />
+</Frame>
+
+## Wie Sie einen Status lesen
+
+- Prüfen Sie den Zeitstempel des letzten Ereignisses
+- Prüfen Sie Bestimmungsort und Frachtführer in derselben Zeile
+- Sehen Sie, ob der Status in der Gruppe Exceptions liegt
+- Schauen Sie später erneut, wenn noch ein neueres Ereignis eintreffen kann
+
+Uhrzeiten stammen aus dem Ereignis, das das Portal erhalten hat. Sie können von der Uhrzeit auf Ihrer Uhr abweichen.
+
+## Status sind keine Supportfälle
+
+Eine Paketsendung kann **Delivered** zeigen, während ein [Claim](/de/parcels/claims) noch offen ist. Eine Paketsendung kann **In transit** zeigen, während ein [Ticket](/de/parcels/tickets) bearbeitet wird.
+
+| Statusgruppe | Typischer nächster Schritt |
+| --- | --- |
+| In transit | Warten Sie auf die nächste Aktualisierung, oder öffnen Sie ein Ticket, wenn die Paketsendung überfällig ist |
+| Exceptions | Folgen Sie [Lieferausnahmen](/de/parcels/delivery-exceptions) |
+| Delivered | Schließen Sie die Aufgabe, oder öffnen Sie einen Claim bei Schaden, Fehlmenge oder Verlust |
+
+Wenn der gruppierte Status falsch wirkt, behalten Sie Auftragsnummer und track-and-trace-Wert und folgen Sie [Ein Sendungsstatus wird nicht aktualisiert](/de/support/status-not-updated).
