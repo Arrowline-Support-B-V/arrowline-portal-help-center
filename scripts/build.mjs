@@ -2,6 +2,7 @@ import { readFile, readdir, mkdir, writeFile, cp, rm } from 'node:fs/promises';
 import { join, dirname, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { evaluate } from '@mdx-js/mdx';
+import remarkGfm from 'remark-gfm';
 import * as jsxRuntime from 'react/jsx-runtime';
 import React from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
@@ -64,6 +65,7 @@ const components = {
   Steps: ({ children }) => React.createElement('ol', { className: 'steps' }, children),
   Step: ({ title, children }) => React.createElement('li', null, React.createElement('strong', null, title), React.createElement('div', null, children)),
   Frame: ({ caption, children }) => React.createElement('figure', { className: 'frame' }, children, caption && React.createElement('figcaption', null, caption)),
+  table: ({ children, ...props }) => React.createElement('div', { className: 'table-wrap' }, React.createElement('table', props, children)),
 };
 
 function sidebar(page, language) {
@@ -116,7 +118,7 @@ await cp(join(root, 'assets/site.js'), join(dist, 'assets/site.js'));
 
 const search = [];
 for (const page of pages.values()) {
-  const { default: Content } = await evaluate(page.content, { ...jsxRuntime, development: false });
+  const { default: Content } = await evaluate(page.content, { ...jsxRuntime, development: false, remarkPlugins: [remarkGfm] });
   const rendered = renderToStaticMarkup(React.createElement(Content, { components }));
   const headingMatches = [...page.content.matchAll(/^#{2,3}\s+(.+)$/gm)];
   const headings = headingMatches.map(match => ({ title: match[1].replace(/[*_`]/g, ''), id: match[1].toLowerCase().replace(/[^\p{L}\p{N}\s-]/gu, '').trim().replace(/\s+/g, '-') }));

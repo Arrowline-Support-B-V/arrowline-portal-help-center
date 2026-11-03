@@ -221,10 +221,10 @@
             ]
           },
           {
-            "tab": "Paletten",
+            "tab": "Pallets",
             "groups": [
               {
-                "group": "Paletten beheren",
+                "group": "Pallets beheren",
                 "pages": [
                   "nl/pallets/overview",
                   "nl/pallets/public-tracking",
